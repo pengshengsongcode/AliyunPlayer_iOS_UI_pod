@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AliyunPlayer_iOS_UI_pod_Example' do
+  pod 'AliyunPlayer_iOS_UI_pod', :path => '../'
+
+  target 'AliyunPlayer_iOS_UI_pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

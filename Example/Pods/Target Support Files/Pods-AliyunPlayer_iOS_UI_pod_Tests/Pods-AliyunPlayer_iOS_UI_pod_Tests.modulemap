@@ -1,0 +1,6 @@
+framework module Pods_AliyunPlayer_iOS_UI_pod_Tests {
+  umbrella header "Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

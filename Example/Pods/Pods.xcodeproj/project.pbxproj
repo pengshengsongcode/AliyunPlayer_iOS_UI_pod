@@ -1,0 +1,1810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B67720F22D8AB11B7E09339E5A5BB452 /* AliyunPlayer_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3EAB8D5F9D089788518650DBA2BB6305 /* Build configuration list for PBXAggregateTarget "AliyunPlayer_iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AliyunPlayer_iOS;
+			productName = AliyunPlayer_iOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		018941268D80D24F2FEC1336E6CB38FB /* AliyunPlayerViewErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6445303B274A57F6B57A8D3A8BCF56 /* AliyunPlayerViewErrorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059ED5029536E34A6AEFBD834828E905 /* UIImage+AlivcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 151848955FEB7A4112D5CE521532042E /* UIImage+AlivcHelper.m */; };
+		069022AF6720F7CD3922A281202A27A7 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BB3AAFDF051A6B609E4143393FC0F3 /* MBProgressHUD-dummy.m */; };
+		071C6ED69257B8BA02E74129D9D654DB /* ratio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F144F872988C6496567DFA2E9B177327 /* ratio@3x.png */; };
+		0ABE9F647F38208E321B6BCA8DD8B83B /* al_over_btn_refresh_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20A111A03DFF8564456630E6368E1C82 /* al_over_btn_refresh_red@2x.png */; };
+		12FFC3983A7B3B5C445D97F1DFF516A8 /* AVCVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 919FA9EE51B1C262A9A8E7176AF6554C /* AVCVideoConfig.m */; };
+		150BDF5E41D1371B1DB13E3F775C15B8 /* AliyunPlayerViewBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4176EC8A8AD6F96CB4375E8550BBE20F /* AliyunPlayerViewBottomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16592B57C9E624670E256BD4F8C9AE07 /* AliyunPrivateDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E75CBF27B1D39BD8EB5DDECCE348C0 /* AliyunPrivateDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A5F386F57C1355F3071AD8616DC312 /* AliyunSpeedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E343C499CA5828F82AF3C541143E0A53 /* AliyunSpeedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1740BA3CA2C21AE919607316A7921F5E /* AliyunPlayerViewFirstStartGuideView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31428370F80822135BDDBF038F7873EF /* AliyunPlayerViewFirstStartGuideView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D987057153FB2AD8D473CE380D1FBB /* 断线-icon-高亮度@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD19887B37A732A013733D1B3BEB67 /* 断线-icon-高亮度@3x.png */; };
+		1A5B8F7444E11031A2C3865143233C78 /* AliyunPlayerViewGifView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4A1E91907561AD6F48CEC1CB25032 /* AliyunPlayerViewGifView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A76978F08BBFEBA679E79D2B106B6F4 /* al_quality_btn_nomal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A045F84E14C8EDC25A8037A65DE5BA1 /* al_quality_btn_nomal@3x.png */; };
+		1A996A107366AE12D3DC95EDE499FC03 /* alivc_fullScreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A8F98CCC445E851F8CF502DC45C4C7 /* alivc_fullScreen@3x.png */; };
+		1B7410E6B1FB80D351A94928191E56CE /* al_fingerGesture_forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DAAF3DC8A120A7BF5925B33EE95152E /* al_fingerGesture_forward@3x.png */; };
+		1C5A8ABBE7C9F7C5166F739CDE76A6C5 /* AliyunPlayerViewSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B40E43570E7F3678E8EE0E3999733A3 /* AliyunPlayerViewSlider.m */; };
+		1E0B1FC4B4E098F9877BF6A2ACB19637 /* alivc_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06D662ED165CD5668FD5DFE2F6CDDA6F /* alivc_lock@2x.png */; };
+		1F20B93313E90A01282D39512A33A8B4 /* AliyunUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F05755487D09571BBC057B139628457B /* AliyunUtil.m */; };
+		206FF4D91E9A5980EFC268A56E8CFEDE /* AliyunGestureModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 29422E390B5D153A915EE8F2BBF76359 /* AliyunGestureModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2395D99D00B941BDECA4BB4B8B2E3800 /* UIImage+AlivcHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4228FE9D7A91C0C3281A6E0127B2A398 /* UIImage+AlivcHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2681260742B75F1BAA12034EFC002BF5 /* al_fingerGesture_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8B984260DA73F982D01E9D7D5F6FA9 /* al_fingerGesture_forward@2x.png */; };
+		26E7CA634F311AA396B1682544A3CD14 /* AliyunPlayerViewQualityListView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE26FC7A5DB9EEA6678A37C566C83134 /* AliyunPlayerViewQualityListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281118F63E6D8F9E1085270540327CA0 /* AliyunVodPlayerViewDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = E773C07DC91A1D2F1DFAE6976B1AB71A /* AliyunVodPlayerViewDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297DEE03B7C8D8772AC5A06318952701 /* UIColor+AlivcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A66C35492F1BE8C8220B9855B8DDB9D /* UIColor+AlivcHelper.m */; };
+		2B4DF022F52405D8FCCF4058B928ACEA /* al_loader.gif in Sources */ = {isa = PBXBuildFile; fileRef = F5C8297D19DB4CA952E8EB3E4565D35C /* al_loader.gif */; };
+		2C2795E0877FFA9FFD34FC5CADDE2E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */; };
+		30B237FA8F20043BD94A6900457B22CF /* AliyunViewMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8248FBE8A6292DFF9F212CF43D2340B0 /* AliyunViewMoreView.m */; };
+		320DA760C85776B7F175330591BE7483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */; };
+		356D122632A8994EB57844661C3C4A46 /* al_video_brightness_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E61F5FDA36568EFA14651BFE2F54C70 /* al_video_brightness_bg@2x.png */; };
+		35787BE9EC39D5967445FC470446A830 /* AliyunPlayerViewControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0305A44586A17E733C0CB760E7DD6322 /* AliyunPlayerViewControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361D434DC6896C29EEC3F83258EC68DF /* AliyunPlayerViewSeekPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E586C23277B18DF5A6093800343833 /* AliyunPlayerViewSeekPopupView.m */; };
+		3B3B68760E80C4D009E7718E4D4D39B0 /* avcSmallSound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA0467370936CF6B57D58B7DAE20E784 /* avcSmallSound@2x.png */; };
+		3FBD2C403B40E90F35B1D6F0F5A73F4A /* avcBigSound@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F4EB19D0FB41CC3984D52EF2F341A4 /* avcBigSound@3x.png */; };
+		405D7D31C680CB36D3F7E7D4B09AE358 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5600EE677AA7C411A6E77B1155A348C9 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4072867648DD56A7EDF0D87DF977E68F /* NSString+AlivcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F720F55B42708671B3DD03EB69DC629B /* NSString+AlivcHelper.m */; };
+		40830262DE189747AD0970A1CA9DFD2B /* avcPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2D5048E1F4F608510BB8AB50C7A8905 /* avcPause@2x.png */; };
+		40A1378F87948DD1CC134D8C976DFF10 /* al_topbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5017576E18CDEC0B879E5D05B69BF0EC /* al_topbar_bg@3x.png */; };
+		412B2D6A2BFB8E07C1A232A7AB34C0F7 /* AliyunPlayerViewQualityListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 035520700A71E24A4C03E67F2F8905CF /* AliyunPlayerViewQualityListView.m */; };
+		43DD2412D8A441750DD7223112F993C8 /* AliyunReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7D4F5DA3EC71350EFD56AC8A87E337 /* AliyunReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A14AAC9C9943150AF8D49F37726C251 /* AliyunPlayerViewTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B448B7E96CF8258061248A0BB34EC6A /* AliyunPlayerViewTopView.m */; };
+		4D0308F5B87AE725C0206108315BDD71 /* al_fingerGesture_mute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 738F489EA8CC1C4B37F4F9070F062368 /* al_fingerGesture_mute@2x.png */; };
+		4F356F368E7452498825D7F7C2642412 /* AliyunPlayerViewFirstStartGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C31433534ECCBA247ED265F51DA14E /* AliyunPlayerViewFirstStartGuideView.m */; };
+		51354CC8B222ECE5205B7FA0A51250C2 /* icon-低亮度@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA0D50F5386C4F12B26E13C882E010C /* icon-低亮度@2x.png */; };
+		51CDA06A12D75BE87EA1A8CEBA489E6E /* MBProgressHUD+AlivcHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD9D8F5F687D0FDE7BFAFB129E0960B /* MBProgressHUD+AlivcHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52887BDC4781A21109B408457A46F978 /* AlilyunViewLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A66A06CEFF9039024F4072063332706 /* AlilyunViewLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52A1F5545C2E6DCCB7EECBA2DC03DA69 /* AliyunPlayer_iOS_UI_pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B126988B3D1F8B91394388EB54F9C361 /* AliyunPlayer_iOS_UI_pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52B1F1CBBDBD3609F106FB6F620AFDAB /* AliyunPlayerViewPopLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F3E8590B220B94EA90DF2BAA10491B /* AliyunPlayerViewPopLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F30475CC174DEA987606498589F9D4 /* MBProgressHUD+AlivcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9EEF7E08FD6B1263E455929BBDD6D4 /* MBProgressHUD+AlivcHelper.m */; };
+		53F97761FD7B46ABF5A28075907069B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */; };
+		540FCBF58BDEB2F6C5DC1B043304AC81 /* AliyunPlayerViewSpeedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DD700C48A757DBE92E8E1B8EBD5611 /* AliyunPlayerViewSpeedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B1F7C2E75E9E286FD62043B21A495F /* AliyunPlayerViewControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8DCF8CEC2645BF808AFBAB7A828282 /* AliyunPlayerViewControlView.m */; };
+		57D5D865576057073DFC4A4A5E75C86B /* PSSGetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EB241C061F4CB164C344ECB62F1372 /* PSSGetImage.m */; };
+		5ADCBD2C54CBA24A78CEEE9CAF3099C8 /* alivcPlayThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8565810992333DB3B18E18680A5465AC /* alivcPlayThumb@2x.png */; };
+		5D270B234DBE69361FA8410BA2C3F28A /* avcSmallSound@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD90D929DDB4C929D1D066F9DA1C2EB7 /* avcSmallSound@3x.png */; };
+		5DC278B0224F570D40D8FC2B6222BD44 /* AliyunPlayerViewSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = D121160D325BFDB808E426BAB63FC3E1 /* AliyunPlayerViewSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63125972D2FA096E2BA2EBD1A9911B74 /* avcPlayIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A93F72CC1A6AF8E2B4830FB4A54D050 /* avcPlayIcon@2x.png */; };
+		6422FF4731BFF77292B79ECB3A19DA69 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D285BDDABCE9A05C096A46D9ED8AE55 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6536CA8282D1C93C6FAD300F9EF98851 /* alivc_unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA67EB227422BDE5D5AE63C3B34C7E07 /* alivc_unlock@3x.png */; };
+		6930B965DDB891EB1272EC32C28FCE9E /* al_playbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FE854BA10252AF82B6440FEF815523 /* al_playbar_bg@3x.png */; };
+		6BFA01392FAA9657337D8754B9B75711 /* avcMore@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 073CB90EC0D3B624FC384B3DF474DBE8 /* avcMore@3x.png */; };
+		6D13BDBEC1EA81576316E863989B2459 /* al_video_brightness_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EFEF655F804562D45139B49EE2DABA /* al_video_brightness_bg@3x.png */; };
+		6DF5BCC50EE15AB56034002322A2D2DF /* AliyunPlayerViewPopLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A550EE01E6B8777C8B589C0BDC0CED /* AliyunPlayerViewPopLayer.m */; };
+		6E59BCD771517FFB0726ECF10A9444AB /* al_fingerGesture_voice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6961A557F0E7D7BE37511512D2A716D /* al_fingerGesture_voice@2x.png */; };
+		6F590CA0D96346F26B1E3039DA9C648B /* avcDownload@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62674C3FE8C0F441271B2B3AA5680FDF /* avcDownload@3x.png */; };
+		6F66BAF62D20D65BE35B600E95DA9C17 /* AliyunPlayerViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42007527654199CF05FCF5E21C5FF53C /* AliyunPlayerViewProgressView.m */; };
+		70D3E6DCB61FFFEE9C5BBD812701E52A /* AliyunUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E1CF072973572253AFA1EBA533ADAF /* AliyunUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73C8DF84F848BAC90A921A04705DE51B /* al_fingerGesture_voice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FDCDCFF3E8DB95B7188D215A30017FD /* al_fingerGesture_voice@3x.png */; };
+		77C704975A7235827FE292553ECA75F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00483726BD05BE3A5ABCCEEE5B36919 /* CoreGraphics.framework */; };
+		78E467FBA9D32328EEA3C1FC0E87CA7F /* al_playbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4319A4A75D74D41D99AC2B9D18D910C9 /* al_playbar_bg@2x.png */; };
+		78ECAC2D33906F7E7A921E12F03D9C63 /* al_over_btn_refresh_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 484B5569FC62635D6B3F098D0EBD3546 /* al_over_btn_refresh_red@3x.png */; };
+		7A69597D7B28775EDB77D44F39CDD347 /* AliyunViewMoreView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA35C989763540FDE0B1476B0B6F271C /* AliyunViewMoreView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		807184BC368E0AF01E876EA32B78EDE3 /* al_play_start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7230EAD432224DF1403278946B951669 /* al_play_start@3x.png */; };
+		80F0EFB3939CA6A64D6898B4856C44EC /* AVCVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9698A18F9C61AD63A7D65DF32DF38D72 /* AVCVideoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CE46EE0704537FE4B78B54EEC5956F /* al_error_btn_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 481E989BDFCAB7640D5B94382296B2F3 /* al_error_btn_white@3x.png */; };
+		8734AB7F6FC69E007015BC24416DEFDA /* AliyunVodPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8081DEF22B42E6F8177ADC48D01DF58A /* AliyunVodPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87BA7F757AEB2917D6285EDFB18F2B37 /* AliyunPlayer_iOS_UI_pod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFAAE345BC558ED07065C9AD3BB0A373 /* AliyunPlayer_iOS_UI_pod.bundle */; };
+		8885141AA8C2F6863DAA1EE40BF70F0A /* PSSGetImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D7E4B02F0C5609C3FC82C44320C54E /* PSSGetImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDCCB01A3D2FCDB518E1C469445CBF4 /* al_play_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0B05214CE0D29E9F26618682AEA190 /* al_play_stop@2x.png */; };
+		90897184711E620F0FDB81072DC58158 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 534E883049FDD373DA7B0D2CF1383DF5 /* README.md */; };
+		90959977F8E10B157FD0D142B59488AC /* AliyunSpeedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E805F4DE2F76A079DF9D12B99A906 /* AliyunSpeedButton.m */; };
+		90AF90A8A2F1B9C0E83156835CCD56A7 /* Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF78C125487EB10DA5DD20AF61C1705 /* Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E244D82C4C5BA1CF3526756D03E607 /* al_quality_btn_press_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7BE6D9A6124FD7C434CCE71DF8D3AE /* al_quality_btn_press_blue@2x.png */; };
+		940C78A67C4E19BFD80475485E49BABC /* AliyunDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C919CB57205D238A35EAF626D757F /* AliyunDataSource.m */; };
+		964C0CB4B94A96368152F7978C7952D8 /* AliyunGestureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BB6F5C141308B486937FB5450D457D /* AliyunGestureModel.m */; };
+		9687037A86AF1489663B1E37A40E6174 /* ratio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925A1B9054AF8649F6F7DE8360AD1969 /* ratio@2x.png */; };
+		987C1EF948381CF29405D3C28D4069F3 /* AlilyunViewLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E39BF58C2E73CB653B0F5D88D413C /* AlilyunViewLoadingView.m */; };
+		98D222247061CA066B43CF3950E0EAC6 /* AliyunVodPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8C7A3EB38A5827E06C94F93A6B9F9 /* AliyunVodPlayerView.m */; };
+		9FC6454034E9A63AC3AC69F981597468 /* avcMore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E801BC07F98B972B766BAA1314EA3D0 /* avcMore@2x.png */; };
+		A1243A097973FFE1CFD8AF1E0564160B /* AliyunPlayerViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F9A36A2F14CC33AFF76B94EA623B40 /* AliyunPlayerViewProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C04D1BB780820CD13C18691D8CAC82 /* al_fingerGesture_backwrad@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6D817F5F65E5873E127297AF062D5D /* al_fingerGesture_backwrad@3x.png */; };
+		A4652C1236E28B896CE806300A390949 /* UIColor+AlivcHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE0E4939BC8E362A5D083B19D7FAEF0 /* UIColor+AlivcHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A844227CC013CF7800E7089D711E949F /* Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B3CF83FA6F557722CE4458BB7569C1 /* Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m */; };
+		A85DB2878AAFEAC49414671F0E7FCE03 /* al_play_stop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEE3147271DAC479683BB596277CACEE /* al_play_stop@3x.png */; };
+		A9C1E3E457938582873CCB5A4EDEF6CB /* icon-低亮度@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B759438719EDE465D7AAE7D6D3B5F8D5 /* icon-低亮度@3x.png */; };
+		AB91BA337020F0851B4914F5BEA3C915 /* AliyunDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FBCDE722AC54D5A24BDFC7F99B20B88 /* AliyunDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC0A63E2B1D220AD04F0B34A1DED02F /* 断线-icon-高亮度@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC56DBD8CFB1EC9D216A0772CB60802B /* 断线-icon-高亮度@2x.png */; };
+		AD000FBD54DEA51306F721A2F6EFA914 /* al_quality_btn_nomal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F348CE131B1F0362A0C052A3DF4CEF /* al_quality_btn_nomal@2x.png */; };
+		AD21C6664BD20D217CFECAD247D35C22 /* avcBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64435A2C1D08C7770C7C65E81EB67205 /* avcBackIcon@2x.png */; };
+		AEB596152FFB057A0C0DE8E042B58B03 /* AliyunPlayerViewGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAD66A38A8E0C210D33278E29186EA6 /* AliyunPlayerViewGifView.m */; };
+		B0EDF42D6AA6115DA10D9CF087914193 /* AliyunPlayerViewSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC6EAE47A98C14D3993367BCA6821E2 /* AliyunPlayerViewSpeedView.m */; };
+		B1E4CCC33207D4CF07DCC999F74CBBA1 /* avcPause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B435280ADBFA5D5ACB39082CC1D3CB40 /* avcPause@3x.png */; };
+		B2C7BABB843C607AC9328CAD94EA75B6 /* alivc_unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A29488D6836AB54A820E0973E3D67862 /* alivc_unlock@2x.png */; };
+		B9C434349860C453BD07C238434E1110 /* AliyunPlayerViewTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1495928EA05008F1391469144FEB1C /* AliyunPlayerViewTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA6394BDD4E52024CE6AED634B7CC55 /* AliyunReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6BC319B2FA3B210BFFB0D4C6ED9A8A /* AliyunReachability.m */; };
+		BCFC19031A81FF392C3FC62370B75354 /* al_error_btn_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B7BE5B602E9228A16C1174CA22ACEC /* al_error_btn_white@2x.png */; };
+		BEA97A1F126291A2C68FA5484C5128C2 /* alivcPlayThumb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CD41D70E360D5352D0E12813241445 /* alivcPlayThumb@3x.png */; };
+		BEF209C84BD46F24A54A060F79754837 /* alivc_lock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB7B1A9746760E2B808262EF2F9B7F2 /* alivc_lock@3x.png */; };
+		BF3146C5BCBA76C87700DFAF88127054 /* avcPlayIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCE00027861E0150DADBCCC7D748254E /* avcPlayIcon@3x.png */; };
+		C0176222710410F3AF0FD4A64415AE3D /* al_fingerGesture_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE56F08827DB7323DBD1283DF766BD68 /* al_fingerGesture_backward@2x.png */; };
+		C28F291BFD1275A9F2037137F5584DE5 /* smallDots@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FAE9C196FB44F2C50CD4C0CFA8A6ED0 /* smallDots@2x.png */; };
+		C290D95EFE805965E6A29E0B0F7DB7E5 /* al_topbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE86C5A708BA784B544DD085B4918F5C /* al_topbar_bg@2x.png */; };
+		C31271539AF5EF8A2C3A4F1DE58E7097 /* AliyunPlayerViewGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6069A8158FDB9C4F069F78CBFAFE93 /* AliyunPlayerViewGestureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C434E199A77E960A7559513C53414828 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58B2C728964B5E881A6CEA8861345A2 /* MBProgressHUD.framework */; };
+		C45337FB0ED022D941C47C6771CC237E /* AlivcUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFEDBA0A4E0F7D61705C1E78F0EA165 /* AlivcUIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5E92BDC9FA9B57B5B0EFD6A8FC0D5EA /* NSString+AlivcHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0225FBDEC54DB8392496BC1B43E1E0 /* NSString+AlivcHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CD6CAA5997BA5EEA9BA1973E94F994 /* alivc_fullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02AC7FEA7E0C9811EF170F0EF02AF8CC /* alivc_fullScreen@2x.png */; };
+		C80466D9E9DD2CFACF9982DB7E105187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */; };
+		CBC256EBEE944893FBD028DE6AD2C81C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB466B28D15B19C3D52D5D803F9AEB7 /* MBProgressHUD.m */; };
+		CC22DA19EDCACBC80CF8BCA0407327CA /* al_fingerGesture_mute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7249FAE52C4425176EEB308C09C36023 /* al_fingerGesture_mute@3x.png */; };
+		CF0D82E3FD44650B657E3A76FD1B029C /* avcDownload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FDA0AD68A23E553B13F5B71FFAA6F9 /* avcDownload@2x.png */; };
+		D49E73EE49D8763804ABB2AB4D003338 /* AliyunPlayer_iOS_UI_pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9777106699DA6B87C1D67609B01E9A /* AliyunPlayer_iOS_UI_pod-dummy.m */; };
+		D4DEE4B1EAB1840D8EF0D85B1B4E170A /* avcBigSound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED6B50AC8D9EE9614E1C69146C019D6 /* avcBigSound@2x.png */; };
+		D52955467FCD6DA51B23189E751EE422 /* AliyunPlayerViewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC7AAC2647DC6F99F6924038168C97C /* AliyunPlayerViewBottomView.m */; };
+		D668FC9B9BF0CFDE1D9A80DB528CBFC3 /* avcBackIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28982B011283E54B87F5DC56C035C3B2 /* avcBackIcon@3x.png */; };
+		D7F3FB35E39355A9BE108875FA5784FE /* Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 468646A59436E70ECB81301165A7C709 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m */; };
+		D8BEE424AC76AA8B5ED125E35C6C17D9 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA59DA6005A3DBECEDE8097781B13CE /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB635D7E30CD5B7E30325043CABFE7AE /* AlivcUIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = AA64AA79C6A72C39C1D992275FD6D0FC /* AlivcUIConfig.m */; };
+		DE5C6ECC6C136D67AA3C0D88592A9582 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 838925583DEB379395CD3E12B6AE49B1 /* Localizable.strings */; };
+		E11490481B4A89F945A5D105AD3B7A05 /* AliyunPlayerViewSeekPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D67E99FADDA5CD72FDF521D76D5B09 /* AliyunPlayerViewSeekPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E90B4A5550D06FB51D5FD09FDA6E9C22 /* al_quality_btn_press_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2321AF22103C44774085C4FFCDA98EB0 /* al_quality_btn_press_blue@3x.png */; };
+		EF529804BA33FBAC00D09B2D25E860BE /* al_play_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EDB79C14CDDE6FA46B6A33A45FCE7 /* al_play_start@2x.png */; };
+		F48C770AC9C6667B9C38178FB7746940 /* AliyunPlayerViewGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D113F5F7A90BD14C59A63EF9403FF7 /* AliyunPlayerViewGestureView.m */; };
+		F9D0E7DBEE313B9DBF4769C827404A58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9393EDB3FAD0ED295771E277BFD6371 /* QuartzCore.framework */; };
+		FC1F799B867BCA27846B3AE36B7029F6 /* AliyunPlayerViewErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D31592A2D4DEF261D184B93570A58C /* AliyunPlayerViewErrorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E9191F64AE3EDCBBEDA629334E4FB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67720F22D8AB11B7E09339E5A5BB452;
+			remoteInfo = AliyunPlayer_iOS;
+		};
+		4D912DEBE56FBF9F33AA66439E85D7B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5893FF755D3F625E3F3DAC5732E0E98A;
+			remoteInfo = AliyunPlayer_iOS_UI_pod;
+		};
+		5485CA82EDBAA403A594E4A729B700AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B67720F22D8AB11B7E09339E5A5BB452;
+			remoteInfo = AliyunPlayer_iOS;
+		};
+		73FADDAEB1243061C803DDA55BC39C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90B2E1D6C8211F8F5C5D55EC0DADA0B;
+			remoteInfo = MBProgressHUD;
+		};
+		AC7E0CED2521FA0FBA63DBBE253FC086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E38E5616FF3CEE429C398E9574DB378;
+			remoteInfo = "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod";
+		};
+		D84F89940B3C4F4E1ECADDD5797DA5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EAB3672DE7EEAB19D598D246FE20577;
+			remoteInfo = "Pods-AliyunPlayer_iOS_UI_pod_Example";
+		};
+		F7C45DCA3DEB6087D919F7B0EA4D54DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90B2E1D6C8211F8F5C5D55EC0DADA0B;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AC7FEA7E0C9811EF170F0EF02AF8CC /* alivc_fullScreen@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_fullScreen@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_fullScreen@2x.png"; sourceTree = "<group>"; };
+		0305A44586A17E733C0CB760E7DD6322 /* AliyunPlayerViewControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewControlView.h; sourceTree = "<group>"; };
+		0336EC040F2EC38A499D0139B52D4435 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		035520700A71E24A4C03E67F2F8905CF /* AliyunPlayerViewQualityListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewQualityListView.m; sourceTree = "<group>"; };
+		06D662ED165CD5668FD5DFE2F6CDDA6F /* alivc_lock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_lock@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_lock@2x.png"; sourceTree = "<group>"; };
+		073CB90EC0D3B624FC384B3DF474DBE8 /* avcMore@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcMore@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcMore@3x.png"; sourceTree = "<group>"; };
+		0792B7FC6D658A517381A411161D351B /* Pods-AliyunPlayer_iOS_UI_pod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-Info.plist"; sourceTree = "<group>"; };
+		09B447E35C7D88B13F4BCA94B6E27B65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09F4EB19D0FB41CC3984D52EF2F341A4 /* avcBigSound@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcBigSound@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcBigSound@3x.png"; sourceTree = "<group>"; };
+		0B448B7E96CF8258061248A0BB34EC6A /* AliyunPlayerViewTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewTopView.m; sourceTree = "<group>"; };
+		0D0225FBDEC54DB8392496BC1B43E1E0 /* NSString+AlivcHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AlivcHelper.h"; sourceTree = "<group>"; };
+		0EC6EAE47A98C14D3993367BCA6821E2 /* AliyunPlayerViewSpeedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewSpeedView.m; sourceTree = "<group>"; };
+		151848955FEB7A4112D5CE521532042E /* UIImage+AlivcHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AlivcHelper.m"; sourceTree = "<group>"; };
+		17DD700C48A757DBE92E8E1B8EBD5611 /* AliyunPlayerViewSpeedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewSpeedView.h; sourceTree = "<group>"; };
+		1A7B84619BE05A4B7E43992E8501ED3B /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		1B7D4F5DA3EC71350EFD56AC8A87E337 /* AliyunReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunReachability.h; sourceTree = "<group>"; };
+		1BBD19887B37A732A013733D1B3BEB67 /* 断线-icon-高亮度@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "断线-icon-高亮度@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/断线-icon-高亮度@3x.png"; sourceTree = "<group>"; };
+		1CD9D8F5F687D0FDE7BFAFB129E0960B /* MBProgressHUD+AlivcHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AlivcHelper.h"; sourceTree = "<group>"; };
+		1D6445303B274A57F6B57A8D3A8BCF56 /* AliyunPlayerViewErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewErrorView.h; sourceTree = "<group>"; };
+		1DAAF3DC8A120A7BF5925B33EE95152E /* al_fingerGesture_forward@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_forward@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_forward@3x.png"; sourceTree = "<group>"; };
+		1E2C919CB57205D238A35EAF626D757F /* AliyunDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunDataSource.m; sourceTree = "<group>"; };
+		20A111A03DFF8564456630E6368E1C82 /* al_over_btn_refresh_red@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_over_btn_refresh_red@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_over_btn_refresh_red@2x.png"; sourceTree = "<group>"; };
+		20D31592A2D4DEF261D184B93570A58C /* AliyunPlayerViewErrorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewErrorView.m; sourceTree = "<group>"; };
+		2321AF22103C44774085C4FFCDA98EB0 /* al_quality_btn_press_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_quality_btn_press_blue@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_quality_btn_press_blue@3x.png"; sourceTree = "<group>"; };
+		24FDA0AD68A23E553B13F5B71FFAA6F9 /* avcDownload@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcDownload@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcDownload@2x.png"; sourceTree = "<group>"; };
+		28982B011283E54B87F5DC56C035C3B2 /* avcBackIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcBackIcon@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcBackIcon@3x.png"; sourceTree = "<group>"; };
+		29422E390B5D153A915EE8F2BBF76359 /* AliyunGestureModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunGestureModel.h; sourceTree = "<group>"; };
+		2B7BE6D9A6124FD7C434CCE71DF8D3AE /* al_quality_btn_press_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_quality_btn_press_blue@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_quality_btn_press_blue@2x.png"; sourceTree = "<group>"; };
+		2DF78C125487EB10DA5DD20AF61C1705 /* Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h"; sourceTree = "<group>"; };
+		31428370F80822135BDDBF038F7873EF /* AliyunPlayerViewFirstStartGuideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewFirstStartGuideView.h; sourceTree = "<group>"; };
+		34FE854BA10252AF82B6440FEF815523 /* al_playbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_playbar_bg@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_playbar_bg@3x.png"; sourceTree = "<group>"; };
+		35CD41D70E360D5352D0E12813241445 /* alivcPlayThumb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivcPlayThumb@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivcPlayThumb@3x.png"; sourceTree = "<group>"; };
+		3A93F72CC1A6AF8E2B4830FB4A54D050 /* avcPlayIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcPlayIcon@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcPlayIcon@2x.png"; sourceTree = "<group>"; };
+		3A9D59D2D32344BFAD3F15B3E3AC2181 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E4E39BF58C2E73CB653B0F5D88D413C /* AlilyunViewLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlilyunViewLoadingView.m; sourceTree = "<group>"; };
+		4176EC8A8AD6F96CB4375E8550BBE20F /* AliyunPlayerViewBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewBottomView.h; sourceTree = "<group>"; };
+		42007527654199CF05FCF5E21C5FF53C /* AliyunPlayerViewProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewProgressView.m; sourceTree = "<group>"; };
+		4228FE9D7A91C0C3281A6E0127B2A398 /* UIImage+AlivcHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AlivcHelper.h"; sourceTree = "<group>"; };
+		4319A4A75D74D41D99AC2B9D18D910C9 /* al_playbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_playbar_bg@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_playbar_bg@2x.png"; sourceTree = "<group>"; };
+		468646A59436E70ECB81301165A7C709 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m"; sourceTree = "<group>"; };
+		481E989BDFCAB7640D5B94382296B2F3 /* al_error_btn_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_error_btn_white@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_error_btn_white@3x.png"; sourceTree = "<group>"; };
+		484B5569FC62635D6B3F098D0EBD3546 /* al_over_btn_refresh_red@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_over_btn_refresh_red@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_over_btn_refresh_red@3x.png"; sourceTree = "<group>"; };
+		48DC1768907D817F3DE84B626999E016 /* Pods-AliyunPlayer_iOS_UI_pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunPlayer_iOS_UI_pod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		48F9A36A2F14CC33AFF76B94EA623B40 /* AliyunPlayerViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewProgressView.h; sourceTree = "<group>"; };
+		499FE6C902FB69B70625CE7F6174B5DC /* Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E61F5FDA36568EFA14651BFE2F54C70 /* al_video_brightness_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_video_brightness_bg@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_video_brightness_bg@2x.png"; sourceTree = "<group>"; };
+		4E801BC07F98B972B766BAA1314EA3D0 /* avcMore@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcMore@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcMore@2x.png"; sourceTree = "<group>"; };
+		4F9F4B1FF079D4E6A00B0101B88C1FC3 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5017576E18CDEC0B879E5D05B69BF0EC /* al_topbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_topbar_bg@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_topbar_bg@3x.png"; sourceTree = "<group>"; };
+		50DE6D8257329DDD5CCF661C511A19F7 /* Pods_AliyunPlayer_iOS_UI_pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunPlayer_iOS_UI_pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D86A2FD9962EA72A8BA2333D4012F8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C31433534ECCBA247ED265F51DA14E /* AliyunPlayerViewFirstStartGuideView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewFirstStartGuideView.m; sourceTree = "<group>"; };
+		534E883049FDD373DA7B0D2CF1383DF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5600EE677AA7C411A6E77B1155A348C9 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		59F348CE131B1F0362A0C052A3DF4CEF /* al_quality_btn_nomal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_quality_btn_nomal@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_quality_btn_nomal@2x.png"; sourceTree = "<group>"; };
+		5AE0E4939BC8E362A5D083B19D7FAEF0 /* UIColor+AlivcHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+AlivcHelper.h"; sourceTree = "<group>"; };
+		5B40E43570E7F3678E8EE0E3999733A3 /* AliyunPlayerViewSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewSlider.m; sourceTree = "<group>"; };
+		5CB8C7A3EB38A5827E06C94F93A6B9F9 /* AliyunVodPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunVodPlayerView.m; sourceTree = "<group>"; };
+		5D66DCE281AC487F0078AE6C3AFD1FD6 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests-Info.plist"; sourceTree = "<group>"; };
+		5F2E805F4DE2F76A079DF9D12B99A906 /* AliyunSpeedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunSpeedButton.m; sourceTree = "<group>"; };
+		62674C3FE8C0F441271B2B3AA5680FDF /* avcDownload@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcDownload@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcDownload@3x.png"; sourceTree = "<group>"; };
+		62D7E4B02F0C5609C3FC82C44320C54E /* PSSGetImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSSGetImage.h; path = AliyunPlayer_iOS_UI_pod/Classes/PSSGetImage.h; sourceTree = "<group>"; };
+		64435A2C1D08C7770C7C65E81EB67205 /* avcBackIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcBackIcon@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcBackIcon@2x.png"; sourceTree = "<group>"; };
+		65EFEF655F804562D45139B49EE2DABA /* al_video_brightness_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_video_brightness_bg@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_video_brightness_bg@3x.png"; sourceTree = "<group>"; };
+		6A4EDB79C14CDDE6FA46B6A33A45FCE7 /* al_play_start@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_play_start@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_play_start@2x.png"; sourceTree = "<group>"; };
+		6A66A06CEFF9039024F4072063332706 /* AlilyunViewLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlilyunViewLoadingView.h; sourceTree = "<group>"; };
+		6B4A41B4E26E03B9E1C0880A26339BFD /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		6B88DB28604A91D8F9809359C00C2CBF /* Pods_AliyunPlayer_iOS_UI_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliyunPlayer_iOS_UI_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8B984260DA73F982D01E9D7D5F6FA9 /* al_fingerGesture_forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_forward@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_forward@2x.png"; sourceTree = "<group>"; };
+		6E3196FF1B761F9D0BAEFA83F6FC1450 /* AliyunPlayer_iOS_UI_pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunPlayer_iOS_UI_pod-prefix.pch"; sourceTree = "<group>"; };
+		6E96E931FE197720499ED8E0323BD923 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		6FAE9C196FB44F2C50CD4C0CFA8A6ED0 /* smallDots@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "smallDots@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/smallDots@2x.png"; sourceTree = "<group>"; };
+		712CECDD6F72B1DA409D0FC0B047C2B6 /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunPlayerSDK.framework; sourceTree = "<group>"; };
+		71A550EE01E6B8777C8B589C0BDC0CED /* AliyunPlayerViewPopLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewPopLayer.m; sourceTree = "<group>"; };
+		7230EAD432224DF1403278946B951669 /* al_play_start@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_play_start@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_play_start@3x.png"; sourceTree = "<group>"; };
+		7249FAE52C4425176EEB308C09C36023 /* al_fingerGesture_mute@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_mute@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_mute@3x.png"; sourceTree = "<group>"; };
+		738F489EA8CC1C4B37F4F9070F062368 /* al_fingerGesture_mute@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_mute@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_mute@2x.png"; sourceTree = "<group>"; };
+		7732E022E55DB900304D3B01AFB8D105 /* AliyunPlayer_iOS_UI_pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliyunPlayer_iOS_UI_pod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A045F84E14C8EDC25A8037A65DE5BA1 /* al_quality_btn_nomal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_quality_btn_nomal@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_quality_btn_nomal@3x.png"; sourceTree = "<group>"; };
+		7A6069A8158FDB9C4F069F78CBFAFE93 /* AliyunPlayerViewGestureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewGestureView.h; sourceTree = "<group>"; };
+		8081DEF22B42E6F8177ADC48D01DF58A /* AliyunVodPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunVodPlayerView.h; sourceTree = "<group>"; };
+		8248FBE8A6292DFF9F212CF43D2340B0 /* AliyunViewMoreView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunViewMoreView.m; sourceTree = "<group>"; };
+		838925583DEB379395CD3E12B6AE49B1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8565810992333DB3B18E18680A5465AC /* alivcPlayThumb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivcPlayThumb@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivcPlayThumb@2x.png"; sourceTree = "<group>"; };
+		89A8F98CCC445E851F8CF502DC45C4C7 /* alivc_fullScreen@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_fullScreen@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_fullScreen@3x.png"; sourceTree = "<group>"; };
+		8BD5F42C98301975D1983C3BB895B16D /* AliyunPlayer_iOS_UI_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AliyunPlayer_iOS_UI_pod-Info.plist"; sourceTree = "<group>"; };
+		8FA0D50F5386C4F12B26E13C882E010C /* icon-低亮度@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-低亮度@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/icon-低亮度@2x.png"; sourceTree = "<group>"; };
+		8FBCDE722AC54D5A24BDFC7F99B20B88 /* AliyunDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunDataSource.h; sourceTree = "<group>"; };
+		919FA9EE51B1C262A9A8E7176AF6554C /* AVCVideoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AVCVideoConfig.m; sourceTree = "<group>"; };
+		925A1B9054AF8649F6F7DE8360AD1969 /* ratio@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ratio@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/ratio@2x.png"; sourceTree = "<group>"; };
+		93255A9A703E0A3CE85B6C8F12281AAF /* Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9683F6FE61EC8300558EF9CF6FEFA794 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9698A18F9C61AD63A7D65DF32DF38D72 /* AVCVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCVideoConfig.h; sourceTree = "<group>"; };
+		97690680143333208BFFFB217214B966 /* Pods-AliyunPlayer_iOS_UI_pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliyunPlayer_iOS_UI_pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A66C35492F1BE8C8220B9855B8DDB9D /* UIColor+AlivcHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AlivcHelper.m"; sourceTree = "<group>"; };
+		9C9777106699DA6B87C1D67609B01E9A /* AliyunPlayer_iOS_UI_pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliyunPlayer_iOS_UI_pod-dummy.m"; sourceTree = "<group>"; };
+		9D285BDDABCE9A05C096A46D9ED8AE55 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB7B1A9746760E2B808262EF2F9B7F2 /* alivc_lock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_lock@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_lock@3x.png"; sourceTree = "<group>"; };
+		9FDCDCFF3E8DB95B7188D215A30017FD /* al_fingerGesture_voice@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_voice@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_voice@3x.png"; sourceTree = "<group>"; };
+		A00483726BD05BE3A5ABCCEEE5B36919 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A1E4A1E91907561AD6F48CEC1CB25032 /* AliyunPlayerViewGifView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewGifView.h; sourceTree = "<group>"; };
+		A29488D6836AB54A820E0973E3D67862 /* alivc_unlock@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_unlock@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_unlock@2x.png"; sourceTree = "<group>"; };
+		A3E75CBF27B1D39BD8EB5DDECCE348C0 /* AliyunPrivateDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPrivateDefine.h; sourceTree = "<group>"; };
+		A58B2C728964B5E881A6CEA8861345A2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74FAAA19E9E1FC0425EC3A9905FB490 /* AliyunPlayer_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunPlayer_iOS.xcconfig; sourceTree = "<group>"; };
+		A7EB241C061F4CB164C344ECB62F1372 /* PSSGetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSSGetImage.m; path = AliyunPlayer_iOS_UI_pod/Classes/PSSGetImage.m; sourceTree = "<group>"; };
+		AA64AA79C6A72C39C1D992275FD6D0FC /* AlivcUIConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlivcUIConfig.m; sourceTree = "<group>"; };
+		AB8DCF8CEC2645BF808AFBAB7A828282 /* AliyunPlayerViewControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewControlView.m; sourceTree = "<group>"; };
+		ABB466B28D15B19C3D52D5D803F9AEB7 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		ACCF230AD1C38D4A64D8B92378CAF1CB /* AliyunPlayer_iOS_UI_pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliyunPlayer_iOS_UI_pod.modulemap; sourceTree = "<group>"; };
+		B126988B3D1F8B91394388EB54F9C361 /* AliyunPlayer_iOS_UI_pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliyunPlayer_iOS_UI_pod-umbrella.h"; sourceTree = "<group>"; };
+		B435280ADBFA5D5ACB39082CC1D3CB40 /* avcPause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcPause@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcPause@3x.png"; sourceTree = "<group>"; };
+		B4D113F5F7A90BD14C59A63EF9403FF7 /* AliyunPlayerViewGestureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewGestureView.m; sourceTree = "<group>"; };
+		B759438719EDE465D7AAE7D6D3B5F8D5 /* icon-低亮度@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-低亮度@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/icon-低亮度@3x.png"; sourceTree = "<group>"; };
+		B9393EDB3FAD0ED295771E277BFD6371 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA0467370936CF6B57D58B7DAE20E784 /* avcSmallSound@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcSmallSound@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcSmallSound@2x.png"; sourceTree = "<group>"; };
+		BBAD66A38A8E0C210D33278E29186EA6 /* AliyunPlayerViewGifView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewGifView.m; sourceTree = "<group>"; };
+		BC56DBD8CFB1EC9D216A0772CB60802B /* 断线-icon-高亮度@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "断线-icon-高亮度@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/断线-icon-高亮度@2x.png"; sourceTree = "<group>"; };
+		BCA59DA6005A3DBECEDE8097781B13CE /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BE56F08827DB7323DBD1283DF766BD68 /* al_fingerGesture_backward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_backward@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_backward@2x.png"; sourceTree = "<group>"; };
+		BE86C5A708BA784B544DD085B4918F5C /* al_topbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_topbar_bg@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_topbar_bg@2x.png"; sourceTree = "<group>"; };
+		BE9EEF7E08FD6B1263E455929BBDD6D4 /* MBProgressHUD+AlivcHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AlivcHelper.m"; sourceTree = "<group>"; };
+		BEC7980FFC48F0C1F10CC2E9910AAF8E /* Pods-AliyunPlayer_iOS_UI_pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliyunPlayer_iOS_UI_pod_Tests.modulemap"; sourceTree = "<group>"; };
+		C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunPlayer_iOS_UI_pod.xcconfig; sourceTree = "<group>"; };
+		C6961A557F0E7D7BE37511512D2A716D /* al_fingerGesture_voice@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_voice@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_voice@2x.png"; sourceTree = "<group>"; };
+		C7E586C23277B18DF5A6093800343833 /* AliyunPlayerViewSeekPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewSeekPopupView.m; sourceTree = "<group>"; };
+		C7F3E8590B220B94EA90DF2BAA10491B /* AliyunPlayerViewPopLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewPopLayer.h; sourceTree = "<group>"; };
+		CA0B05214CE0D29E9F26618682AEA190 /* al_play_stop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_play_stop@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_play_stop@2x.png"; sourceTree = "<group>"; };
+		CA25DA7479401B4943FCEABD677081CE /* Pods-AliyunPlayer_iOS_UI_pod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-resources.sh"; sourceTree = "<group>"; };
+		CED6B50AC8D9EE9614E1C69146C019D6 /* avcBigSound@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcBigSound@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcBigSound@2x.png"; sourceTree = "<group>"; };
+		CFAAE345BC558ED07065C9AD3BB0A373 /* AliyunPlayer_iOS_UI_pod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliyunPlayer_iOS_UI_pod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D121160D325BFDB808E426BAB63FC3E1 /* AliyunPlayerViewSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewSlider.h; sourceTree = "<group>"; };
+		D1B0DD0DF63BF717602B790AC3DF4BE1 /* AliyunPlayer_iOS_UI_pod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AliyunPlayer_iOS_UI_pod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6378DDCCD74AEAFCE3E9A2C8BB40F39 /* Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6B7BE5B602E9228A16C1174CA22ACEC /* al_error_btn_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_error_btn_white@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_error_btn_white@2x.png"; sourceTree = "<group>"; };
+		D7E1CF072973572253AFA1EBA533ADAF /* AliyunUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunUtil.h; sourceTree = "<group>"; };
+		DA34D47DCDD2B6D7EBB47B6E46A5EE17 /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
+		DA67EB227422BDE5D5AE63C3B34C7E07 /* alivc_unlock@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alivc_unlock@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/alivc_unlock@3x.png"; sourceTree = "<group>"; };
+		DACD08AE5A137F8143C6A743633B98E6 /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliThirdparty.framework; sourceTree = "<group>"; };
+		DC6D817F5F65E5873E127297AF062D5D /* al_fingerGesture_backwrad@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_fingerGesture_backwrad@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_fingerGesture_backwrad@3x.png"; sourceTree = "<group>"; };
+		DCE00027861E0150DADBCCC7D748254E /* avcPlayIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcPlayIcon@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcPlayIcon@3x.png"; sourceTree = "<group>"; };
+		DD90D929DDB4C929D1D066F9DA1C2EB7 /* avcSmallSound@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcSmallSound@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcSmallSound@3x.png"; sourceTree = "<group>"; };
+		DF4C9515983C254C0BDF5D0A8FEC7644 /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AliyunLanguageSource.bundle; sourceTree = "<group>"; };
+		E343C499CA5828F82AF3C541143E0A53 /* AliyunSpeedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunSpeedButton.h; sourceTree = "<group>"; };
+		E4BB3AAFDF051A6B609E4143393FC0F3 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		E773C07DC91A1D2F1DFAE6976B1AB71A /* AliyunVodPlayerViewDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunVodPlayerViewDefine.h; sourceTree = "<group>"; };
+		E88290CFB0B4D2892180E2A8C74A1496 /* Pods-AliyunPlayer_iOS_UI_pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EC6BC319B2FA3B210BFFB0D4C6ED9A8A /* AliyunReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunReachability.m; sourceTree = "<group>"; };
+		EE26FC7A5DB9EEA6678A37C566C83134 /* AliyunPlayerViewQualityListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewQualityListView.h; sourceTree = "<group>"; };
+		EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EEBA84595A0DE6D9FEA505C885447265 /* ResourceBundle-AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod-Info.plist"; sourceTree = "<group>"; };
+		EEE3147271DAC479683BB596277CACEE /* al_play_stop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "al_play_stop@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/al_play_stop@3x.png"; sourceTree = "<group>"; };
+		EFFEDBA0A4E0F7D61705C1E78F0EA165 /* AlivcUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlivcUIConfig.h; sourceTree = "<group>"; };
+		F05755487D09571BBC057B139628457B /* AliyunUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunUtil.m; sourceTree = "<group>"; };
+		F144F872988C6496567DFA2E9B177327 /* ratio@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ratio@3x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/ratio@3x.png"; sourceTree = "<group>"; };
+		F1BB6F5C141308B486937FB5450D457D /* AliyunGestureModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunGestureModel.m; sourceTree = "<group>"; };
+		F2D5048E1F4F608510BB8AB50C7A8905 /* avcPause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "avcPause@2x.png"; path = "AliyunPlayer_iOS_UI_pod/Assets/avcPause@2x.png"; sourceTree = "<group>"; };
+		F3D67E99FADDA5CD72FDF521D76D5B09 /* AliyunPlayerViewSeekPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewSeekPopupView.h; sourceTree = "<group>"; };
+		F4B3CF83FA6F557722CE4458BB7569C1 /* Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m"; sourceTree = "<group>"; };
+		F5C8297D19DB4CA952E8EB3E4565D35C /* al_loader.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; path = al_loader.gif; sourceTree = "<group>"; };
+		F720F55B42708671B3DD03EB69DC629B /* NSString+AlivcHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlivcHelper.m"; sourceTree = "<group>"; };
+		F9188DAA201ABEBC26BA9C1728412C09 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F9541947CAC59397985DD20651B019A7 /* Pods-AliyunPlayer_iOS_UI_pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliyunPlayer_iOS_UI_pod_Example.modulemap"; sourceTree = "<group>"; };
+		FA35C989763540FDE0B1476B0B6F271C /* AliyunViewMoreView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunViewMoreView.h; sourceTree = "<group>"; };
+		FBC7AAC2647DC6F99F6924038168C97C /* AliyunPlayerViewBottomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerViewBottomView.m; sourceTree = "<group>"; };
+		FE1495928EA05008F1391469144FEB1C /* AliyunPlayerViewTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliyunPlayerViewTopView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282A80F5EA4CD2391AFFD43E901D476F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F97761FD7B46ABF5A28075907069B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365088701765AE9551E446FE8F08F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320DA760C85776B7F175330591BE7483 /* Foundation.framework in Frameworks */,
+				C434E199A77E960A7559513C53414828 /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B5E80CE958E319F3E9CF02BD877799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C80466D9E9DD2CFACF9982DB7E105187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB5C31E737A6CE6837B8837DFCFE5DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C704975A7235827FE292553ECA75F0 /* CoreGraphics.framework in Frameworks */,
+				2C2795E0877FFA9FFD34FC5CADDE2E55 /* Foundation.framework in Frameworks */,
+				F9D0E7DBEE313B9DBF4769C827404A58 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE89FBD3256DFBC2E76AD96D7EDC5CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C38022518ACE975075ACBDEB2A918A /* AliyunPlayer_iOS_UI */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8297D19DB4CA952E8EB3E4565D35C /* al_loader.gif */,
+				F32385C8FBC07E6764A1C66A33447DDA /* Localizable.strings */,
+				534E883049FDD373DA7B0D2CF1383DF5 /* README.md */,
+				72A41DF7539586F3B2C9F0A1B99955C1 /* AliPlayerView */,
+			);
+			path = AliyunPlayer_iOS_UI;
+			sourceTree = "<group>";
+		};
+		062F5A54461C94AFD1B803C5A484A972 /* Pods-AliyunPlayer_iOS_UI_pod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC7980FFC48F0C1F10CC2E9910AAF8E /* Pods-AliyunPlayer_iOS_UI_pod_Tests.modulemap */,
+				3A9D59D2D32344BFAD3F15B3E3AC2181 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.markdown */,
+				499FE6C902FB69B70625CE7F6174B5DC /* Pods-AliyunPlayer_iOS_UI_pod_Tests-acknowledgements.plist */,
+				468646A59436E70ECB81301165A7C709 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m */,
+				5D66DCE281AC487F0078AE6C3AFD1FD6 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-Info.plist */,
+				5600EE677AA7C411A6E77B1155A348C9 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h */,
+				4F9F4B1FF079D4E6A00B0101B88C1FC3 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.debug.xcconfig */,
+				9683F6FE61EC8300558EF9CF6FEFA794 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.release.xcconfig */,
+			);
+			name = "Pods-AliyunPlayer_iOS_UI_pod_Tests";
+			path = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Tests";
+			sourceTree = "<group>";
+		};
+		09735AE456BF10205C70B86876F328AD /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				6A66A06CEFF9039024F4072063332706 /* AlilyunViewLoadingView.h */,
+				3E4E39BF58C2E73CB653B0F5D88D413C /* AlilyunViewLoadingView.m */,
+				A1E4A1E91907561AD6F48CEC1CB25032 /* AliyunPlayerViewGifView.h */,
+				BBAD66A38A8E0C210D33278E29186EA6 /* AliyunPlayerViewGifView.m */,
+			);
+			path = loading;
+			sourceTree = "<group>";
+		};
+		0BFE1DB9858721FFC154024BDE6FCC0D /* AliyunPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9698A18F9C61AD63A7D65DF32DF38D72 /* AVCVideoConfig.h */,
+				919FA9EE51B1C262A9A8E7176AF6554C /* AVCVideoConfig.m */,
+				01C38022518ACE975075ACBDEB2A918A /* AliyunPlayer_iOS_UI */,
+			);
+			name = AliyunPlayer;
+			path = AliyunPlayer_iOS_UI_pod/Classes/AliyunPlayer;
+			sourceTree = "<group>";
+		};
+		10513CD19D9D08192A60852505F3F865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DACD08AE5A137F8143C6A743633B98E6 /* AliThirdparty.framework */,
+				712CECDD6F72B1DA409D0FC0B047C2B6 /* AliyunPlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		113DAF13D2B69F1937E28E6C20874B94 /* more */ = {
+			isa = PBXGroup;
+			children = (
+				FA35C989763540FDE0B1476B0B6F271C /* AliyunViewMoreView.h */,
+				8248FBE8A6292DFF9F212CF43D2340B0 /* AliyunViewMoreView.m */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		1AA282DA5DFD3F82E9DCB7CFC8526144 /* guideView */ = {
+			isa = PBXGroup;
+			children = (
+				31428370F80822135BDDBF038F7873EF /* AliyunPlayerViewFirstStartGuideView.h */,
+				52C31433534ECCBA247ED265F51DA14E /* AliyunPlayerViewFirstStartGuideView.m */,
+			);
+			path = guideView;
+			sourceTree = "<group>";
+		};
+		28716AA59C44D7BB75CC7192DBDAA592 /* GlobalView */ = {
+			isa = PBXGroup;
+			children = (
+				1AA282DA5DFD3F82E9DCB7CFC8526144 /* guideView */,
+				09735AE456BF10205C70B86876F328AD /* loading */,
+				113DAF13D2B69F1937E28E6C20874B94 /* more */,
+				A0220C0AE0C44BD13973C25D1052C125 /* speedView */,
+			);
+			path = GlobalView;
+			sourceTree = "<group>";
+		};
+		28FDFAF2F6B4510E7969FD394FECDC52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCF230AD1C38D4A64D8B92378CAF1CB /* AliyunPlayer_iOS_UI_pod.modulemap */,
+				C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */,
+				9C9777106699DA6B87C1D67609B01E9A /* AliyunPlayer_iOS_UI_pod-dummy.m */,
+				8BD5F42C98301975D1983C3BB895B16D /* AliyunPlayer_iOS_UI_pod-Info.plist */,
+				6E3196FF1B761F9D0BAEFA83F6FC1450 /* AliyunPlayer_iOS_UI_pod-prefix.pch */,
+				B126988B3D1F8B91394388EB54F9C361 /* AliyunPlayer_iOS_UI_pod-umbrella.h */,
+				EEBA84595A0DE6D9FEA505C885447265 /* ResourceBundle-AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AliyunPlayer_iOS_UI_pod";
+			sourceTree = "<group>";
+		};
+		2E7E7EC66A903E509522CCED2D721435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9A8CC7DD31F60EF06D9E475D426B44 /* AliyunPlayer_iOS */,
+				6C398651D0A54698D3982D1A6D69D27B /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		362BDF83D15B4734C855F5866D5795C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58B2C728964B5E881A6CEA8861345A2 /* MBProgressHUD.framework */,
+				A7640121EE74828EEA747F1C573E97EB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38329166E820F7CF1DFA1005F05AF4D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA34D47DCDD2B6D7EBB47B6E46A5EE17 /* AliyunVodPlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D52E60CFC0848B53D8EA44693086A21 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F56724707D197C617E63B56F0E50DB /* Pods-AliyunPlayer_iOS_UI_pod_Example */,
+				062F5A54461C94AFD1B803C5A484A972 /* Pods-AliyunPlayer_iOS_UI_pod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51D318C831CCE72C3ADF3B840EF88C8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E96E931FE197720499ED8E0323BD923 /* MBProgressHUD.modulemap */,
+				6B4A41B4E26E03B9E1C0880A26339BFD /* MBProgressHUD.xcconfig */,
+				E4BB3AAFDF051A6B609E4143393FC0F3 /* MBProgressHUD-dummy.m */,
+				1A7B84619BE05A4B7E43992E8501ED3B /* MBProgressHUD-Info.plist */,
+				F9188DAA201ABEBC26BA9C1728412C09 /* MBProgressHUD-prefix.pch */,
+				9D285BDDABCE9A05C096A46D9ED8AE55 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		5427E54BA410033553CDB6B834E931B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F69F32067A3F0C79988CCCCBFF6B8E85 /* AliyunPlayer_iOS_UI_pod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59F56724707D197C617E63B56F0E50DB /* Pods-AliyunPlayer_iOS_UI_pod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F9541947CAC59397985DD20651B019A7 /* Pods-AliyunPlayer_iOS_UI_pod_Example.modulemap */,
+				D6378DDCCD74AEAFCE3E9A2C8BB40F39 /* Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.markdown */,
+				93255A9A703E0A3CE85B6C8F12281AAF /* Pods-AliyunPlayer_iOS_UI_pod_Example-acknowledgements.plist */,
+				F4B3CF83FA6F557722CE4458BB7569C1 /* Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m */,
+				E88290CFB0B4D2892180E2A8C74A1496 /* Pods-AliyunPlayer_iOS_UI_pod_Example-frameworks.sh */,
+				0792B7FC6D658A517381A411161D351B /* Pods-AliyunPlayer_iOS_UI_pod_Example-Info.plist */,
+				CA25DA7479401B4943FCEABD677081CE /* Pods-AliyunPlayer_iOS_UI_pod_Example-resources.sh */,
+				2DF78C125487EB10DA5DD20AF61C1705 /* Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h */,
+				97690680143333208BFFFB217214B966 /* Pods-AliyunPlayer_iOS_UI_pod_Example.debug.xcconfig */,
+				48DC1768907D817F3DE84B626999E016 /* Pods-AliyunPlayer_iOS_UI_pod_Example.release.xcconfig */,
+			);
+			name = "Pods-AliyunPlayer_iOS_UI_pod_Example";
+			path = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Example";
+			sourceTree = "<group>";
+		};
+		65E0A4E40019A7580D1FE172D116AC2E /* AliyunPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				10513CD19D9D08192A60852505F3F865 /* Frameworks */,
+				6643EC2A5A37AAF3204345EA77193861 /* Resources */,
+			);
+			name = AliyunPlayerSDK;
+			sourceTree = "<group>";
+		};
+		6643EC2A5A37AAF3204345EA77193861 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF4C9515983C254C0BDF5D0A8FEC7644 /* AliyunLanguageSource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B9C1C0D46E767595938FA0A3B35B212 /* ControlLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0305A44586A17E733C0CB760E7DD6322 /* AliyunPlayerViewControlView.h */,
+				AB8DCF8CEC2645BF808AFBAB7A828282 /* AliyunPlayerViewControlView.m */,
+				AF5EF10498A378D748DBF7BA7D0B7248 /* bottom */,
+				8D7B7D796E9D9EE2CAA44A095901F56A /* gesture */,
+				BE2097DDA26B92A21EC23303078E6B05 /* top */,
+			);
+			path = ControlLayer;
+			sourceTree = "<group>";
+		};
+		6C398651D0A54698D3982D1A6D69D27B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BCA59DA6005A3DBECEDE8097781B13CE /* MBProgressHUD.h */,
+				ABB466B28D15B19C3D52D5D803F9AEB7 /* MBProgressHUD.m */,
+				51D318C831CCE72C3ADF3B840EF88C8B /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		6D69BF2EE98EED0FC33047D5A8112585 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D1B0DD0DF63BF717602B790AC3DF4BE1 /* AliyunPlayer_iOS_UI_pod.podspec */,
+				0336EC040F2EC38A499D0139B52D4435 /* LICENSE */,
+				09B447E35C7D88B13F4BCA94B6E27B65 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72A41DF7539586F3B2C9F0A1B99955C1 /* AliPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				EFFEDBA0A4E0F7D61705C1E78F0EA165 /* AlivcUIConfig.h */,
+				AA64AA79C6A72C39C1D992275FD6D0FC /* AlivcUIConfig.m */,
+				8FBCDE722AC54D5A24BDFC7F99B20B88 /* AliyunDataSource.h */,
+				1E2C919CB57205D238A35EAF626D757F /* AliyunDataSource.m */,
+				A3E75CBF27B1D39BD8EB5DDECCE348C0 /* AliyunPrivateDefine.h */,
+				1B7D4F5DA3EC71350EFD56AC8A87E337 /* AliyunReachability.h */,
+				EC6BC319B2FA3B210BFFB0D4C6ED9A8A /* AliyunReachability.m */,
+				D7E1CF072973572253AFA1EBA533ADAF /* AliyunUtil.h */,
+				F05755487D09571BBC057B139628457B /* AliyunUtil.m */,
+				8081DEF22B42E6F8177ADC48D01DF58A /* AliyunVodPlayerView.h */,
+				5CB8C7A3EB38A5827E06C94F93A6B9F9 /* AliyunVodPlayerView.m */,
+				E773C07DC91A1D2F1DFAE6976B1AB71A /* AliyunVodPlayerViewDefine.h */,
+				1CD9D8F5F687D0FDE7BFAFB129E0960B /* MBProgressHUD+AlivcHelper.h */,
+				BE9EEF7E08FD6B1263E455929BBDD6D4 /* MBProgressHUD+AlivcHelper.m */,
+				0D0225FBDEC54DB8392496BC1B43E1E0 /* NSString+AlivcHelper.h */,
+				F720F55B42708671B3DD03EB69DC629B /* NSString+AlivcHelper.m */,
+				5AE0E4939BC8E362A5D083B19D7FAEF0 /* UIColor+AlivcHelper.h */,
+				9A66C35492F1BE8C8220B9855B8DDB9D /* UIColor+AlivcHelper.m */,
+				4228FE9D7A91C0C3281A6E0127B2A398 /* UIImage+AlivcHelper.h */,
+				151848955FEB7A4112D5CE521532042E /* UIImage+AlivcHelper.m */,
+				6B9C1C0D46E767595938FA0A3B35B212 /* ControlLayer */,
+				28716AA59C44D7BB75CC7192DBDAA592 /* GlobalView */,
+				AB8C7782307924435668519F9F64714D /* PopLayer */,
+			);
+			path = AliPlayerView;
+			sourceTree = "<group>";
+		};
+		8D7B7D796E9D9EE2CAA44A095901F56A /* gesture */ = {
+			isa = PBXGroup;
+			children = (
+				29422E390B5D153A915EE8F2BBF76359 /* AliyunGestureModel.h */,
+				F1BB6F5C141308B486937FB5450D457D /* AliyunGestureModel.m */,
+				7A6069A8158FDB9C4F069F78CBFAFE93 /* AliyunPlayerViewGestureView.h */,
+				B4D113F5F7A90BD14C59A63EF9403FF7 /* AliyunPlayerViewGestureView.m */,
+				F3D67E99FADDA5CD72FDF521D76D5B09 /* AliyunPlayerViewSeekPopupView.h */,
+				C7E586C23277B18DF5A6093800343833 /* AliyunPlayerViewSeekPopupView.m */,
+			);
+			path = gesture;
+			sourceTree = "<group>";
+		};
+		8D9A8CC7DD31F60EF06D9E475D426B44 /* AliyunPlayer_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				65E0A4E40019A7580D1FE172D116AC2E /* AliyunPlayerSDK */,
+				E9DCD0830596B149E43B151EDE87E669 /* AliyunVodPlayerSDK */,
+				E2C3F0D2FCCACADAA9AC186212FAFD6E /* Support Files */,
+			);
+			path = AliyunPlayer_iOS;
+			sourceTree = "<group>";
+		};
+		A0220C0AE0C44BD13973C25D1052C125 /* speedView */ = {
+			isa = PBXGroup;
+			children = (
+				17DD700C48A757DBE92E8E1B8EBD5611 /* AliyunPlayerViewSpeedView.h */,
+				0EC6EAE47A98C14D3993367BCA6821E2 /* AliyunPlayerViewSpeedView.m */,
+				E343C499CA5828F82AF3C541143E0A53 /* AliyunSpeedButton.h */,
+				5F2E805F4DE2F76A079DF9D12B99A906 /* AliyunSpeedButton.m */,
+			);
+			path = speedView;
+			sourceTree = "<group>";
+		};
+		A7640121EE74828EEA747F1C573E97EB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A00483726BD05BE3A5ABCCEEE5B36919 /* CoreGraphics.framework */,
+				EE41078B981DB5E79F425ACCFCC4E299 /* Foundation.framework */,
+				B9393EDB3FAD0ED295771E277BFD6371 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AB8C7782307924435668519F9F64714D /* PopLayer */ = {
+			isa = PBXGroup;
+			children = (
+				1D6445303B274A57F6B57A8D3A8BCF56 /* AliyunPlayerViewErrorView.h */,
+				20D31592A2D4DEF261D184B93570A58C /* AliyunPlayerViewErrorView.m */,
+				C7F3E8590B220B94EA90DF2BAA10491B /* AliyunPlayerViewPopLayer.h */,
+				71A550EE01E6B8777C8B589C0BDC0CED /* AliyunPlayerViewPopLayer.m */,
+			);
+			path = PopLayer;
+			sourceTree = "<group>";
+		};
+		AD47222C2864F6ACC232A63AB4486FA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAAE345BC558ED07065C9AD3BB0A373 /* AliyunPlayer_iOS_UI_pod.bundle */,
+				7732E022E55DB900304D3B01AFB8D105 /* AliyunPlayer_iOS_UI_pod.framework */,
+				51D86A2FD9962EA72A8BA2333D4012F8 /* MBProgressHUD.framework */,
+				50DE6D8257329DDD5CCF661C511A19F7 /* Pods_AliyunPlayer_iOS_UI_pod_Example.framework */,
+				6B88DB28604A91D8F9809359C00C2CBF /* Pods_AliyunPlayer_iOS_UI_pod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5EF10498A378D748DBF7BA7D0B7248 /* bottom */ = {
+			isa = PBXGroup;
+			children = (
+				4176EC8A8AD6F96CB4375E8550BBE20F /* AliyunPlayerViewBottomView.h */,
+				FBC7AAC2647DC6F99F6924038168C97C /* AliyunPlayerViewBottomView.m */,
+				48F9A36A2F14CC33AFF76B94EA623B40 /* AliyunPlayerViewProgressView.h */,
+				42007527654199CF05FCF5E21C5FF53C /* AliyunPlayerViewProgressView.m */,
+				EE26FC7A5DB9EEA6678A37C566C83134 /* AliyunPlayerViewQualityListView.h */,
+				035520700A71E24A4C03E67F2F8905CF /* AliyunPlayerViewQualityListView.m */,
+				D121160D325BFDB808E426BAB63FC3E1 /* AliyunPlayerViewSlider.h */,
+				5B40E43570E7F3678E8EE0E3999733A3 /* AliyunPlayerViewSlider.m */,
+			);
+			path = bottom;
+			sourceTree = "<group>";
+		};
+		BE2097DDA26B92A21EC23303078E6B05 /* top */ = {
+			isa = PBXGroup;
+			children = (
+				FE1495928EA05008F1391469144FEB1C /* AliyunPlayerViewTopView.h */,
+				0B448B7E96CF8258061248A0BB34EC6A /* AliyunPlayerViewTopView.m */,
+			);
+			path = top;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5427E54BA410033553CDB6B834E931B0 /* Development Pods */,
+				362BDF83D15B4734C855F5866D5795C6 /* Frameworks */,
+				2E7E7EC66A903E509522CCED2D721435 /* Pods */,
+				AD47222C2864F6ACC232A63AB4486FA0 /* Products */,
+				3D52E60CFC0848B53D8EA44693086A21 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C3F0D2FCCACADAA9AC186212FAFD6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74FAAA19E9E1FC0425EC3A9905FB490 /* AliyunPlayer_iOS.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliyunPlayer_iOS";
+			sourceTree = "<group>";
+		};
+		E9DCD0830596B149E43B151EDE87E669 /* AliyunVodPlayerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				38329166E820F7CF1DFA1005F05AF4D7 /* Frameworks */,
+			);
+			name = AliyunVodPlayerSDK;
+			sourceTree = "<group>";
+		};
+		F5CD76230A3C7F9BE0DB1B1203A8D609 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7BE5B602E9228A16C1174CA22ACEC /* al_error_btn_white@2x.png */,
+				481E989BDFCAB7640D5B94382296B2F3 /* al_error_btn_white@3x.png */,
+				BE56F08827DB7323DBD1283DF766BD68 /* al_fingerGesture_backward@2x.png */,
+				DC6D817F5F65E5873E127297AF062D5D /* al_fingerGesture_backwrad@3x.png */,
+				6D8B984260DA73F982D01E9D7D5F6FA9 /* al_fingerGesture_forward@2x.png */,
+				1DAAF3DC8A120A7BF5925B33EE95152E /* al_fingerGesture_forward@3x.png */,
+				738F489EA8CC1C4B37F4F9070F062368 /* al_fingerGesture_mute@2x.png */,
+				7249FAE52C4425176EEB308C09C36023 /* al_fingerGesture_mute@3x.png */,
+				C6961A557F0E7D7BE37511512D2A716D /* al_fingerGesture_voice@2x.png */,
+				9FDCDCFF3E8DB95B7188D215A30017FD /* al_fingerGesture_voice@3x.png */,
+				20A111A03DFF8564456630E6368E1C82 /* al_over_btn_refresh_red@2x.png */,
+				484B5569FC62635D6B3F098D0EBD3546 /* al_over_btn_refresh_red@3x.png */,
+				6A4EDB79C14CDDE6FA46B6A33A45FCE7 /* al_play_start@2x.png */,
+				7230EAD432224DF1403278946B951669 /* al_play_start@3x.png */,
+				CA0B05214CE0D29E9F26618682AEA190 /* al_play_stop@2x.png */,
+				EEE3147271DAC479683BB596277CACEE /* al_play_stop@3x.png */,
+				4319A4A75D74D41D99AC2B9D18D910C9 /* al_playbar_bg@2x.png */,
+				34FE854BA10252AF82B6440FEF815523 /* al_playbar_bg@3x.png */,
+				59F348CE131B1F0362A0C052A3DF4CEF /* al_quality_btn_nomal@2x.png */,
+				7A045F84E14C8EDC25A8037A65DE5BA1 /* al_quality_btn_nomal@3x.png */,
+				2B7BE6D9A6124FD7C434CCE71DF8D3AE /* al_quality_btn_press_blue@2x.png */,
+				2321AF22103C44774085C4FFCDA98EB0 /* al_quality_btn_press_blue@3x.png */,
+				BE86C5A708BA784B544DD085B4918F5C /* al_topbar_bg@2x.png */,
+				5017576E18CDEC0B879E5D05B69BF0EC /* al_topbar_bg@3x.png */,
+				4E61F5FDA36568EFA14651BFE2F54C70 /* al_video_brightness_bg@2x.png */,
+				65EFEF655F804562D45139B49EE2DABA /* al_video_brightness_bg@3x.png */,
+				02AC7FEA7E0C9811EF170F0EF02AF8CC /* alivc_fullScreen@2x.png */,
+				89A8F98CCC445E851F8CF502DC45C4C7 /* alivc_fullScreen@3x.png */,
+				06D662ED165CD5668FD5DFE2F6CDDA6F /* alivc_lock@2x.png */,
+				9EB7B1A9746760E2B808262EF2F9B7F2 /* alivc_lock@3x.png */,
+				A29488D6836AB54A820E0973E3D67862 /* alivc_unlock@2x.png */,
+				DA67EB227422BDE5D5AE63C3B34C7E07 /* alivc_unlock@3x.png */,
+				8565810992333DB3B18E18680A5465AC /* alivcPlayThumb@2x.png */,
+				35CD41D70E360D5352D0E12813241445 /* alivcPlayThumb@3x.png */,
+				64435A2C1D08C7770C7C65E81EB67205 /* avcBackIcon@2x.png */,
+				28982B011283E54B87F5DC56C035C3B2 /* avcBackIcon@3x.png */,
+				CED6B50AC8D9EE9614E1C69146C019D6 /* avcBigSound@2x.png */,
+				09F4EB19D0FB41CC3984D52EF2F341A4 /* avcBigSound@3x.png */,
+				24FDA0AD68A23E553B13F5B71FFAA6F9 /* avcDownload@2x.png */,
+				62674C3FE8C0F441271B2B3AA5680FDF /* avcDownload@3x.png */,
+				4E801BC07F98B972B766BAA1314EA3D0 /* avcMore@2x.png */,
+				073CB90EC0D3B624FC384B3DF474DBE8 /* avcMore@3x.png */,
+				F2D5048E1F4F608510BB8AB50C7A8905 /* avcPause@2x.png */,
+				B435280ADBFA5D5ACB39082CC1D3CB40 /* avcPause@3x.png */,
+				3A93F72CC1A6AF8E2B4830FB4A54D050 /* avcPlayIcon@2x.png */,
+				DCE00027861E0150DADBCCC7D748254E /* avcPlayIcon@3x.png */,
+				BA0467370936CF6B57D58B7DAE20E784 /* avcSmallSound@2x.png */,
+				DD90D929DDB4C929D1D066F9DA1C2EB7 /* avcSmallSound@3x.png */,
+				8FA0D50F5386C4F12B26E13C882E010C /* icon-低亮度@2x.png */,
+				B759438719EDE465D7AAE7D6D3B5F8D5 /* icon-低亮度@3x.png */,
+				925A1B9054AF8649F6F7DE8360AD1969 /* ratio@2x.png */,
+				F144F872988C6496567DFA2E9B177327 /* ratio@3x.png */,
+				6FAE9C196FB44F2C50CD4C0CFA8A6ED0 /* smallDots@2x.png */,
+				BC56DBD8CFB1EC9D216A0772CB60802B /* 断线-icon-高亮度@2x.png */,
+				1BBD19887B37A732A013733D1B3BEB67 /* 断线-icon-高亮度@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F69F32067A3F0C79988CCCCBFF6B8E85 /* AliyunPlayer_iOS_UI_pod */ = {
+			isa = PBXGroup;
+			children = (
+				62D7E4B02F0C5609C3FC82C44320C54E /* PSSGetImage.h */,
+				A7EB241C061F4CB164C344ECB62F1372 /* PSSGetImage.m */,
+				0BFE1DB9858721FFC154024BDE6FCC0D /* AliyunPlayer */,
+				6D69BF2EE98EED0FC33047D5A8112585 /* Pod */,
+				F5CD76230A3C7F9BE0DB1B1203A8D609 /* Resources */,
+				28FDFAF2F6B4510E7969FD394FECDC52 /* Support Files */,
+			);
+			name = AliyunPlayer_iOS_UI_pod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38E550752D55D67980E172DC88544B35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6422FF4731BFF77292B79ECB3A19DA69 /* MBProgressHUD-umbrella.h in Headers */,
+				D8BEE424AC76AA8B5ED125E35C6C17D9 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C41BC255AC052227C63486CF9F608C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D7D31C680CB36D3F7E7D4B09AE358 /* Pods-AliyunPlayer_iOS_UI_pod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA8D65BDEC284DFE6F80B1823F343FEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AF90A8A2F1B9C0E83156835CCD56A7 /* Pods-AliyunPlayer_iOS_UI_pod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F525E3943AA0ABE9A0D0A3397F7371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52887BDC4781A21109B408457A46F978 /* AlilyunViewLoadingView.h in Headers */,
+				C45337FB0ED022D941C47C6771CC237E /* AlivcUIConfig.h in Headers */,
+				AB91BA337020F0851B4914F5BEA3C915 /* AliyunDataSource.h in Headers */,
+				206FF4D91E9A5980EFC268A56E8CFEDE /* AliyunGestureModel.h in Headers */,
+				52A1F5545C2E6DCCB7EECBA2DC03DA69 /* AliyunPlayer_iOS_UI_pod-umbrella.h in Headers */,
+				150BDF5E41D1371B1DB13E3F775C15B8 /* AliyunPlayerViewBottomView.h in Headers */,
+				35787BE9EC39D5967445FC470446A830 /* AliyunPlayerViewControlView.h in Headers */,
+				018941268D80D24F2FEC1336E6CB38FB /* AliyunPlayerViewErrorView.h in Headers */,
+				1740BA3CA2C21AE919607316A7921F5E /* AliyunPlayerViewFirstStartGuideView.h in Headers */,
+				C31271539AF5EF8A2C3A4F1DE58E7097 /* AliyunPlayerViewGestureView.h in Headers */,
+				1A5B8F7444E11031A2C3865143233C78 /* AliyunPlayerViewGifView.h in Headers */,
+				52B1F1CBBDBD3609F106FB6F620AFDAB /* AliyunPlayerViewPopLayer.h in Headers */,
+				A1243A097973FFE1CFD8AF1E0564160B /* AliyunPlayerViewProgressView.h in Headers */,
+				26E7CA634F311AA396B1682544A3CD14 /* AliyunPlayerViewQualityListView.h in Headers */,
+				E11490481B4A89F945A5D105AD3B7A05 /* AliyunPlayerViewSeekPopupView.h in Headers */,
+				5DC278B0224F570D40D8FC2B6222BD44 /* AliyunPlayerViewSlider.h in Headers */,
+				540FCBF58BDEB2F6C5DC1B043304AC81 /* AliyunPlayerViewSpeedView.h in Headers */,
+				B9C434349860C453BD07C238434E1110 /* AliyunPlayerViewTopView.h in Headers */,
+				16592B57C9E624670E256BD4F8C9AE07 /* AliyunPrivateDefine.h in Headers */,
+				43DD2412D8A441750DD7223112F993C8 /* AliyunReachability.h in Headers */,
+				16A5F386F57C1355F3071AD8616DC312 /* AliyunSpeedButton.h in Headers */,
+				70D3E6DCB61FFFEE9C5BBD812701E52A /* AliyunUtil.h in Headers */,
+				7A69597D7B28775EDB77D44F39CDD347 /* AliyunViewMoreView.h in Headers */,
+				8734AB7F6FC69E007015BC24416DEFDA /* AliyunVodPlayerView.h in Headers */,
+				281118F63E6D8F9E1085270540327CA0 /* AliyunVodPlayerViewDefine.h in Headers */,
+				80F0EFB3939CA6A64D6898B4856C44EC /* AVCVideoConfig.h in Headers */,
+				51CDA06A12D75BE87EA1A8CEBA489E6E /* MBProgressHUD+AlivcHelper.h in Headers */,
+				C5E92BDC9FA9B57B5B0EFD6A8FC0D5EA /* NSString+AlivcHelper.h in Headers */,
+				8885141AA8C2F6863DAA1EE40BF70F0A /* PSSGetImage.h in Headers */,
+				A4652C1236E28B896CE806300A390949 /* UIColor+AlivcHelper.h in Headers */,
+				2395D99D00B941BDECA4BB4B8B2E3800 /* UIImage+AlivcHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5893FF755D3F625E3F3DAC5732E0E98A /* AliyunPlayer_iOS_UI_pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DF87B456AA4975EA4E8520DE7F05F8 /* Build configuration list for PBXNativeTarget "AliyunPlayer_iOS_UI_pod" */;
+			buildPhases = (
+				F5F525E3943AA0ABE9A0D0A3397F7371 /* Headers */,
+				7AF41F9CF587F9094EC0776E15E4C31E /* Sources */,
+				365088701765AE9551E446FE8F08F6FB /* Frameworks */,
+				AE93EA6B25A392048A412F7BAD3A138F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D161B2F1C261C8805A50D77FFD31D7E /* PBXTargetDependency */,
+				292A6AF997D9F630480599D12544DD61 /* PBXTargetDependency */,
+				E00ED8D53C5B6E3C89FE4A62CECAC07D /* PBXTargetDependency */,
+			);
+			name = AliyunPlayer_iOS_UI_pod;
+			productName = AliyunPlayer_iOS_UI_pod;
+			productReference = 7732E022E55DB900304D3B01AFB8D105 /* AliyunPlayer_iOS_UI_pod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E38E5616FF3CEE429C398E9574DB378 /* AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9EE7EEE2C5AA9E002AE505B1B691AA /* Build configuration list for PBXNativeTarget "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod" */;
+			buildPhases = (
+				972129A4E38F1839554A1E52F8FD5A68 /* Sources */,
+				EE89FBD3256DFBC2E76AD96D7EDC5CC9 /* Frameworks */,
+				1B01F3D96B171163B8E6E3A4016191CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod";
+			productName = "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod";
+			productReference = CFAAE345BC558ED07065C9AD3BB0A373 /* AliyunPlayer_iOS_UI_pod.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6EAB3672DE7EEAB19D598D246FE20577 /* Pods-AliyunPlayer_iOS_UI_pod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662F96C1E58354FEEAC7BC44CD67856B /* Build configuration list for PBXNativeTarget "Pods-AliyunPlayer_iOS_UI_pod_Example" */;
+			buildPhases = (
+				AA8D65BDEC284DFE6F80B1823F343FEE /* Headers */,
+				4D9F4C3AD6EB3C5B957DE4DE5405049C /* Sources */,
+				282A80F5EA4CD2391AFFD43E901D476F /* Frameworks */,
+				6CD47A88D08F021A06965D991130F33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D05BF16E3CF3B020F7728B9F8F0DE43 /* PBXTargetDependency */,
+				4C693483A8CD6622E214778F8BBAB706 /* PBXTargetDependency */,
+				D00F9C6CFAAC77E5F787D36A3396D846 /* PBXTargetDependency */,
+			);
+			name = "Pods-AliyunPlayer_iOS_UI_pod_Example";
+			productName = "Pods-AliyunPlayer_iOS_UI_pod_Example";
+			productReference = 50DE6D8257329DDD5CCF661C511A19F7 /* Pods_AliyunPlayer_iOS_UI_pod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86F8EB6C9D9BBDBAEE6E63D35E158200 /* Pods-AliyunPlayer_iOS_UI_pod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80782A165784989553C97EC11251CA17 /* Build configuration list for PBXNativeTarget "Pods-AliyunPlayer_iOS_UI_pod_Tests" */;
+			buildPhases = (
+				89C41BC255AC052227C63486CF9F608C /* Headers */,
+				2E86B8D55ECE27E089F031D130D7EE40 /* Sources */,
+				40B5E80CE958E319F3E9CF02BD877799 /* Frameworks */,
+				8157AFE8DA63A0D05BD756A95B4DCDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B575BF851E8ED5DBF193DED4C55328E /* PBXTargetDependency */,
+			);
+			name = "Pods-AliyunPlayer_iOS_UI_pod_Tests";
+			productName = "Pods-AliyunPlayer_iOS_UI_pod_Tests";
+			productReference = 6B88DB28604A91D8F9809359C00C2CBF /* Pods_AliyunPlayer_iOS_UI_pod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C90B2E1D6C8211F8F5C5D55EC0DADA0B /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1554DB5E5FD116F657E5DBD41136A6 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				38E550752D55D67980E172DC88544B35 /* Headers */,
+				2BAB85E2B80BF0E56839678FE8CAA590 /* Sources */,
+				8DB5C31E737A6CE6837B8837DFCFE5DF /* Frameworks */,
+				2FE78C1DD689120A5E977EAAE8ED33CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 51D86A2FD9962EA72A8BA2333D4012F8 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AD47222C2864F6ACC232A63AB4486FA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B67720F22D8AB11B7E09339E5A5BB452 /* AliyunPlayer_iOS */,
+				5893FF755D3F625E3F3DAC5732E0E98A /* AliyunPlayer_iOS_UI_pod */,
+				5E38E5616FF3CEE429C398E9574DB378 /* AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod */,
+				C90B2E1D6C8211F8F5C5D55EC0DADA0B /* MBProgressHUD */,
+				6EAB3672DE7EEAB19D598D246FE20577 /* Pods-AliyunPlayer_iOS_UI_pod_Example */,
+				86F8EB6C9D9BBDBAEE6E63D35E158200 /* Pods-AliyunPlayer_iOS_UI_pod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B01F3D96B171163B8E6E3A4016191CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFC19031A81FF392C3FC62370B75354 /* al_error_btn_white@2x.png in Resources */,
+				83CE46EE0704537FE4B78B54EEC5956F /* al_error_btn_white@3x.png in Resources */,
+				C0176222710410F3AF0FD4A64415AE3D /* al_fingerGesture_backward@2x.png in Resources */,
+				A2C04D1BB780820CD13C18691D8CAC82 /* al_fingerGesture_backwrad@3x.png in Resources */,
+				2681260742B75F1BAA12034EFC002BF5 /* al_fingerGesture_forward@2x.png in Resources */,
+				1B7410E6B1FB80D351A94928191E56CE /* al_fingerGesture_forward@3x.png in Resources */,
+				4D0308F5B87AE725C0206108315BDD71 /* al_fingerGesture_mute@2x.png in Resources */,
+				CC22DA19EDCACBC80CF8BCA0407327CA /* al_fingerGesture_mute@3x.png in Resources */,
+				6E59BCD771517FFB0726ECF10A9444AB /* al_fingerGesture_voice@2x.png in Resources */,
+				73C8DF84F848BAC90A921A04705DE51B /* al_fingerGesture_voice@3x.png in Resources */,
+				0ABE9F647F38208E321B6BCA8DD8B83B /* al_over_btn_refresh_red@2x.png in Resources */,
+				78ECAC2D33906F7E7A921E12F03D9C63 /* al_over_btn_refresh_red@3x.png in Resources */,
+				EF529804BA33FBAC00D09B2D25E860BE /* al_play_start@2x.png in Resources */,
+				807184BC368E0AF01E876EA32B78EDE3 /* al_play_start@3x.png in Resources */,
+				8FDCCB01A3D2FCDB518E1C469445CBF4 /* al_play_stop@2x.png in Resources */,
+				A85DB2878AAFEAC49414671F0E7FCE03 /* al_play_stop@3x.png in Resources */,
+				78E467FBA9D32328EEA3C1FC0E87CA7F /* al_playbar_bg@2x.png in Resources */,
+				6930B965DDB891EB1272EC32C28FCE9E /* al_playbar_bg@3x.png in Resources */,
+				AD000FBD54DEA51306F721A2F6EFA914 /* al_quality_btn_nomal@2x.png in Resources */,
+				1A76978F08BBFEBA679E79D2B106B6F4 /* al_quality_btn_nomal@3x.png in Resources */,
+				92E244D82C4C5BA1CF3526756D03E607 /* al_quality_btn_press_blue@2x.png in Resources */,
+				E90B4A5550D06FB51D5FD09FDA6E9C22 /* al_quality_btn_press_blue@3x.png in Resources */,
+				C290D95EFE805965E6A29E0B0F7DB7E5 /* al_topbar_bg@2x.png in Resources */,
+				40A1378F87948DD1CC134D8C976DFF10 /* al_topbar_bg@3x.png in Resources */,
+				356D122632A8994EB57844661C3C4A46 /* al_video_brightness_bg@2x.png in Resources */,
+				6D13BDBEC1EA81576316E863989B2459 /* al_video_brightness_bg@3x.png in Resources */,
+				C7CD6CAA5997BA5EEA9BA1973E94F994 /* alivc_fullScreen@2x.png in Resources */,
+				1A996A107366AE12D3DC95EDE499FC03 /* alivc_fullScreen@3x.png in Resources */,
+				1E0B1FC4B4E098F9877BF6A2ACB19637 /* alivc_lock@2x.png in Resources */,
+				BEF209C84BD46F24A54A060F79754837 /* alivc_lock@3x.png in Resources */,
+				B2C7BABB843C607AC9328CAD94EA75B6 /* alivc_unlock@2x.png in Resources */,
+				6536CA8282D1C93C6FAD300F9EF98851 /* alivc_unlock@3x.png in Resources */,
+				5ADCBD2C54CBA24A78CEEE9CAF3099C8 /* alivcPlayThumb@2x.png in Resources */,
+				BEA97A1F126291A2C68FA5484C5128C2 /* alivcPlayThumb@3x.png in Resources */,
+				AD21C6664BD20D217CFECAD247D35C22 /* avcBackIcon@2x.png in Resources */,
+				D668FC9B9BF0CFDE1D9A80DB528CBFC3 /* avcBackIcon@3x.png in Resources */,
+				D4DEE4B1EAB1840D8EF0D85B1B4E170A /* avcBigSound@2x.png in Resources */,
+				3FBD2C403B40E90F35B1D6F0F5A73F4A /* avcBigSound@3x.png in Resources */,
+				CF0D82E3FD44650B657E3A76FD1B029C /* avcDownload@2x.png in Resources */,
+				6F590CA0D96346F26B1E3039DA9C648B /* avcDownload@3x.png in Resources */,
+				9FC6454034E9A63AC3AC69F981597468 /* avcMore@2x.png in Resources */,
+				6BFA01392FAA9657337D8754B9B75711 /* avcMore@3x.png in Resources */,
+				40830262DE189747AD0970A1CA9DFD2B /* avcPause@2x.png in Resources */,
+				B1E4CCC33207D4CF07DCC999F74CBBA1 /* avcPause@3x.png in Resources */,
+				63125972D2FA096E2BA2EBD1A9911B74 /* avcPlayIcon@2x.png in Resources */,
+				BF3146C5BCBA76C87700DFAF88127054 /* avcPlayIcon@3x.png in Resources */,
+				3B3B68760E80C4D009E7718E4D4D39B0 /* avcSmallSound@2x.png in Resources */,
+				5D270B234DBE69361FA8410BA2C3F28A /* avcSmallSound@3x.png in Resources */,
+				51354CC8B222ECE5205B7FA0A51250C2 /* icon-低亮度@2x.png in Resources */,
+				A9C1E3E457938582873CCB5A4EDEF6CB /* icon-低亮度@3x.png in Resources */,
+				9687037A86AF1489663B1E37A40E6174 /* ratio@2x.png in Resources */,
+				071C6ED69257B8BA02E74129D9D654DB /* ratio@3x.png in Resources */,
+				C28F291BFD1275A9F2037137F5584DE5 /* smallDots@2x.png in Resources */,
+				ACC0A63E2B1D220AD04F0B34A1DED02F /* 断线-icon-高亮度@2x.png in Resources */,
+				17D987057153FB2AD8D473CE380D1FBB /* 断线-icon-高亮度@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE78C1DD689120A5E977EAAE8ED33CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD47A88D08F021A06965D991130F33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8157AFE8DA63A0D05BD756A95B4DCDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE93EA6B25A392048A412F7BAD3A138F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BA7F757AEB2917D6285EDFB18F2B37 /* AliyunPlayer_iOS_UI_pod.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BAB85E2B80BF0E56839678FE8CAA590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069022AF6720F7CD3922A281202A27A7 /* MBProgressHUD-dummy.m in Sources */,
+				CBC256EBEE944893FBD028DE6AD2C81C /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E86B8D55ECE27E089F031D130D7EE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F3FB35E39355A9BE108875FA5784FE /* Pods-AliyunPlayer_iOS_UI_pod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9F4C3AD6EB3C5B957DE4DE5405049C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A844227CC013CF7800E7089D711E949F /* Pods-AliyunPlayer_iOS_UI_pod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF41F9CF587F9094EC0776E15E4C31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4DF022F52405D8FCCF4058B928ACEA /* al_loader.gif in Sources */,
+				987C1EF948381CF29405D3C28D4069F3 /* AlilyunViewLoadingView.m in Sources */,
+				DB635D7E30CD5B7E30325043CABFE7AE /* AlivcUIConfig.m in Sources */,
+				940C78A67C4E19BFD80475485E49BABC /* AliyunDataSource.m in Sources */,
+				964C0CB4B94A96368152F7978C7952D8 /* AliyunGestureModel.m in Sources */,
+				D49E73EE49D8763804ABB2AB4D003338 /* AliyunPlayer_iOS_UI_pod-dummy.m in Sources */,
+				D52955467FCD6DA51B23189E751EE422 /* AliyunPlayerViewBottomView.m in Sources */,
+				54B1F7C2E75E9E286FD62043B21A495F /* AliyunPlayerViewControlView.m in Sources */,
+				FC1F799B867BCA27846B3AE36B7029F6 /* AliyunPlayerViewErrorView.m in Sources */,
+				4F356F368E7452498825D7F7C2642412 /* AliyunPlayerViewFirstStartGuideView.m in Sources */,
+				F48C770AC9C6667B9C38178FB7746940 /* AliyunPlayerViewGestureView.m in Sources */,
+				AEB596152FFB057A0C0DE8E042B58B03 /* AliyunPlayerViewGifView.m in Sources */,
+				6DF5BCC50EE15AB56034002322A2D2DF /* AliyunPlayerViewPopLayer.m in Sources */,
+				6F66BAF62D20D65BE35B600E95DA9C17 /* AliyunPlayerViewProgressView.m in Sources */,
+				412B2D6A2BFB8E07C1A232A7AB34C0F7 /* AliyunPlayerViewQualityListView.m in Sources */,
+				361D434DC6896C29EEC3F83258EC68DF /* AliyunPlayerViewSeekPopupView.m in Sources */,
+				1C5A8ABBE7C9F7C5166F739CDE76A6C5 /* AliyunPlayerViewSlider.m in Sources */,
+				B0EDF42D6AA6115DA10D9CF087914193 /* AliyunPlayerViewSpeedView.m in Sources */,
+				4A14AAC9C9943150AF8D49F37726C251 /* AliyunPlayerViewTopView.m in Sources */,
+				BAA6394BDD4E52024CE6AED634B7CC55 /* AliyunReachability.m in Sources */,
+				90959977F8E10B157FD0D142B59488AC /* AliyunSpeedButton.m in Sources */,
+				1F20B93313E90A01282D39512A33A8B4 /* AliyunUtil.m in Sources */,
+				30B237FA8F20043BD94A6900457B22CF /* AliyunViewMoreView.m in Sources */,
+				98D222247061CA066B43CF3950E0EAC6 /* AliyunVodPlayerView.m in Sources */,
+				12FFC3983A7B3B5C445D97F1DFF516A8 /* AVCVideoConfig.m in Sources */,
+				DE5C6ECC6C136D67AA3C0D88592A9582 /* Localizable.strings in Sources */,
+				53F30475CC174DEA987606498589F9D4 /* MBProgressHUD+AlivcHelper.m in Sources */,
+				4072867648DD56A7EDF0D87DF977E68F /* NSString+AlivcHelper.m in Sources */,
+				57D5D865576057073DFC4A4A5E75C86B /* PSSGetImage.m in Sources */,
+				90897184711E620F0FDB81072DC58158 /* README.md in Sources */,
+				297DEE03B7C8D8772AC5A06318952701 /* UIColor+AlivcHelper.m in Sources */,
+				059ED5029536E34A6AEFBD834828E905 /* UIImage+AlivcHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972129A4E38F1839554A1E52F8FD5A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D161B2F1C261C8805A50D77FFD31D7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunPlayer_iOS;
+			target = B67720F22D8AB11B7E09339E5A5BB452 /* AliyunPlayer_iOS */;
+			targetProxy = 5485CA82EDBAA403A594E4A729B700AB /* PBXContainerItemProxy */;
+		};
+		292A6AF997D9F630480599D12544DD61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod";
+			target = 5E38E5616FF3CEE429C398E9574DB378 /* AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod */;
+			targetProxy = AC7E0CED2521FA0FBA63DBBE253FC086 /* PBXContainerItemProxy */;
+		};
+		4B575BF851E8ED5DBF193DED4C55328E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AliyunPlayer_iOS_UI_pod_Example";
+			target = 6EAB3672DE7EEAB19D598D246FE20577 /* Pods-AliyunPlayer_iOS_UI_pod_Example */;
+			targetProxy = D84F89940B3C4F4E1ECADDD5797DA5CC /* PBXContainerItemProxy */;
+		};
+		4C693483A8CD6622E214778F8BBAB706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunPlayer_iOS_UI_pod;
+			target = 5893FF755D3F625E3F3DAC5732E0E98A /* AliyunPlayer_iOS_UI_pod */;
+			targetProxy = 4D912DEBE56FBF9F33AA66439E85D7B0 /* PBXContainerItemProxy */;
+		};
+		9D05BF16E3CF3B020F7728B9F8F0DE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunPlayer_iOS;
+			target = B67720F22D8AB11B7E09339E5A5BB452 /* AliyunPlayer_iOS */;
+			targetProxy = 0E9191F64AE3EDCBBEDA629334E4FB0F /* PBXContainerItemProxy */;
+		};
+		D00F9C6CFAAC77E5F787D36A3396D846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = C90B2E1D6C8211F8F5C5D55EC0DADA0B /* MBProgressHUD */;
+			targetProxy = F7C45DCA3DEB6087D919F7B0EA4D54DA /* PBXContainerItemProxy */;
+		};
+		E00ED8D53C5B6E3C89FE4A62CECAC07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = C90B2E1D6C8211F8F5C5D55EC0DADA0B /* MBProgressHUD */;
+			targetProxy = 73FADDAEB1243061C803DDA55BC39C2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32385C8FBC07E6764A1C66A33447DDA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838925583DEB379395CD3E12B6AE49B1 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		085142CF13F9F459C1B9B2335EB10BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9F4B1FF079D4E6A00B0101B88C1FC3 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Tests/Pods-AliyunPlayer_iOS_UI_pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Tests/Pods-AliyunPlayer_iOS_UI_pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C0E6FADCD2A225A654D0EDEC7725A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4A41B4E26E03B9E1C0880A26339BFD /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A35F756E54A04D62FE3C9FC3BB58E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod.modulemap";
+				PRODUCT_MODULE_NAME = AliyunPlayer_iOS_UI_pod;
+				PRODUCT_NAME = AliyunPlayer_iOS_UI_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34663B603C118985DF2D06260F0A108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74FAAA19E9E1FC0425EC3A9905FB490 /* AliyunPlayer_iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		469B21EC17B4EDF6A37F7DCAD4A09ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AliyunPlayer_iOS_UI_pod";
+				INFOPLIST_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/ResourceBundle-AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AliyunPlayer_iOS_UI_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4B1243FE60F1DF1480E6C96BF4F8EC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97690680143333208BFFFB217214B966 /* Pods-AliyunPlayer_iOS_UI_pod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Example/Pods-AliyunPlayer_iOS_UI_pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Example/Pods-AliyunPlayer_iOS_UI_pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		595B8C5D4FA694240639643FF44D0A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4A41B4E26E03B9E1C0880A26339BFD /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FE2041DA03A3FBFD75FA049988CCDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74FAAA19E9E1FC0425EC3A9905FB490 /* AliyunPlayer_iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F11C82B94D41CB7C94F4E0553DF6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9683F6FE61EC8300558EF9CF6FEFA794 /* Pods-AliyunPlayer_iOS_UI_pod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Tests/Pods-AliyunPlayer_iOS_UI_pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Tests/Pods-AliyunPlayer_iOS_UI_pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		974E72C8987201F786A324AEB346FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DC1768907D817F3DE84B626999E016 /* Pods-AliyunPlayer_iOS_UI_pod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Example/Pods-AliyunPlayer_iOS_UI_pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AliyunPlayer_iOS_UI_pod_Example/Pods-AliyunPlayer_iOS_UI_pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D08E3AAAB62BAC770D5797591F321003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AliyunPlayer_iOS_UI_pod";
+				INFOPLIST_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/ResourceBundle-AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AliyunPlayer_iOS_UI_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E5B8294B13734E8A91590FBF5380045A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27D61A7C9E4189B2CE324638041DEE5 /* AliyunPlayer_iOS_UI_pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliyunPlayer_iOS_UI_pod/AliyunPlayer_iOS_UI_pod.modulemap";
+				PRODUCT_MODULE_NAME = AliyunPlayer_iOS_UI_pod;
+				PRODUCT_NAME = AliyunPlayer_iOS_UI_pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A1554DB5E5FD116F657E5DBD41136A6 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595B8C5D4FA694240639643FF44D0A4C /* Debug */,
+				0C0E6FADCD2A225A654D0EDEC7725A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EAB8D5F9D089788518650DBA2BB6305 /* Build configuration list for PBXAggregateTarget "AliyunPlayer_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE2041DA03A3FBFD75FA049988CCDAD /* Debug */,
+				34663B603C118985DF2D06260F0A108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662F96C1E58354FEEAC7BC44CD67856B /* Build configuration list for PBXNativeTarget "Pods-AliyunPlayer_iOS_UI_pod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1243FE60F1DF1480E6C96BF4F8EC70 /* Debug */,
+				974E72C8987201F786A324AEB346FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9EE7EEE2C5AA9E002AE505B1B691AA /* Build configuration list for PBXNativeTarget "AliyunPlayer_iOS_UI_pod-AliyunPlayer_iOS_UI_pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08E3AAAB62BAC770D5797591F321003 /* Debug */,
+				469B21EC17B4EDF6A37F7DCAD4A09ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80782A165784989553C97EC11251CA17 /* Build configuration list for PBXNativeTarget "Pods-AliyunPlayer_iOS_UI_pod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085142CF13F9F459C1B9B2335EB10BC7 /* Debug */,
+				67F11C82B94D41CB7C94F4E0553DF6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DF87B456AA4975EA4E8520DE7F05F8 /* Build configuration list for PBXNativeTarget "AliyunPlayer_iOS_UI_pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B8294B13734E8A91590FBF5380045A /* Debug */,
+				1A35F756E54A04D62FE3C9FC3BB58E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
