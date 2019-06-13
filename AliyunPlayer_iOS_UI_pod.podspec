@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: 基于https://github.com/amazing-longdd/AliyunPlayer_iOS_UI封装demo
                        DESC
 
-  s.homepage         = 'https://github.com/彭盛凇/AliyunPlayer_iOS_UI_pod'
+  s.homepage         = 'https://github.com/pengshengsongcode/AliyunPlayer_iOS_UI_pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '彭盛凇' => 'shengsongpeng@huangbaoche.com' }
-  s.source           = { :git => 'https://github.com/彭盛凇/AliyunPlayer_iOS_UI_pod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pengshengsongcode/AliyunPlayer_iOS_UI_pod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
