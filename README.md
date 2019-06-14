@@ -27,3 +27,8 @@ pod 'AliyunPlayer_iOS_UI_pod'
 ## License
 
 AliyunPlayer_iOS_UI_pod is available under the MIT license. See the LICENSE file for more info.
+
+## 原文链接
+https://github.com/amazing-longdd/AliyunPlayer_iOS_UI.git
+
+本库仅是在此成品上做了pod封装，且调整了图片加载，其他与原文一致
